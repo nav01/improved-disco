@@ -1,0 +1,99 @@
+@media screen and (max-width: 450px) {
+  .tools {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    background-color: #1B1B1B;
+  }
+
+  .tools > div {
+    border-bottom: 1px solid #585858;
+    max-width: 100%;
+    padding: 0 5%;
+  }
+
+  .tools div {
+    	color: 	#D3D3D3;
+  }
+
+  .dash-icon {
+    align-self: center;
+    background-color: white;
+  }
+
+  .arrow-icon {
+    margin-left: auto;
+    width: 15px;
+    height: 15px;
+  }
+
+  .tool-button {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    width: 25%;
+    height: 50px;
+    padding: 0%;
+    font-size: 0.8em;
+  }
+
+  .filters {
+    display: flex;
+  }
+
+  .filter-icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  #search-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  #missed-stream {
+    color: #8B0000;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  #catch-up {
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  #schedule {
+    display: flex;
+    max-width: 100%;
+  }
+
+  #vods {
+    display: flex;
+  }
+
+  #search {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  #search-announcements {
+    width: 100%;
+    background: none;
+    border: none;
+    color: inherit;
+    outline: none;
+  }
+
+  #tools2 {
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

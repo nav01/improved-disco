@@ -1,3 +1,6 @@
+This is a clone of the e3recap.com website.  I wanted to make this to practice my javascript, react, and css since the website is narrow in scope.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
