@@ -1,0 +1,20 @@
+#sorting {
+  display: flex;
+  height: 30px;
+  border-top: 1px solid #585858;
+}
+
+.sort-option {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #585858;
+  padding-right: 30px;
+  padding-left: 5px;
+  font-size: 0.8em;
+  width: 33%;
+  height: 100%;
+}
+
+.sort-option:last-child {
+  border: none;
+}

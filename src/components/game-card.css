@@ -1,0 +1,62 @@
+.game-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+
+.game-text {
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  align-self: center;
+  color: white;
+}
+
+.game-title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.exclusive {
+  background: rgba(0,0,0,0.7);
+  margin: 0;
+  font-size: 0.8em;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.exclusive:first-letter {
+  color: #FFD300;
+}
+
+.game-image {
+  position: relative;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.visibility-off, .visibility-on {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  align-self: flex-end;
+  left: 0;
+}
+
+.img-before {
+  z-index: 0.5;
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}

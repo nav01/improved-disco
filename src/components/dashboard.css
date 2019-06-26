@@ -1,5 +1,5 @@
 @media screen and (max-width: 450px) {
-  .tools {
+  .dashboard {
     display: flex;
     flex-direction: column;
     color: white;
@@ -7,14 +7,11 @@
     margin-bottom: 5%;
   }
 
-  .tools > div {
+  .dash-item {
     border-bottom: 1px solid #585858;
-    max-width: 100%;
+    flex-grow: 1;
     padding: 0 5%;
-  }
-
-  .tools div {
-    	color: 	#D3D3D3;
+    color: 	#D3D3D3;
   }
 
   .dash-icon {
@@ -27,19 +24,25 @@
     height: 20px;
   }
 
-  .tool-button {
-    border: none;
-    background: none;
-    outline: none;
+  .filter-text {
     color: inherit;
-    width: 25%;
-    height: 50px;
-    padding: 0%;
     font-size: 0.8em;
   }
 
-  .filters {
+  .tool {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    color: 	inherit;
+  }
+
+  .tool-selected {
+    background: black;
   }
 
   .filter-icons {
@@ -68,6 +71,11 @@
   #schedule {
     display: flex;
     max-width: 100%;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
   }
 
   #vods {
@@ -88,9 +96,9 @@
     outline: none;
   }
 
-  #tools2 {
+  #tools {
     padding: 0%;
     display: flex;
-    justify-content: space-around;
+    border: none;
   }
 }
