@@ -1,5 +1,6 @@
 import React from 'react';
 
+//A grid icon for the legend component.  Done this way to use the symbol multiple times with different colors.
 function GridIcon (props) {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" className="grid-icon">

@@ -5,13 +5,13 @@ import Sort from './Sort';
 import Filters from './Filters';
 import './dashboard.css';
 
-import downArrow from '../icons/down-arrow.svg';
-import rightArrow from '../icons/forward-arrow.svg';
-import search from '../icons/search.svg';
-import legend from '../icons/legend.svg';
-import sort from '../icons/sort.svg';
-import filter from '../icons/filter.svg';
-import reset from '../icons/reset.svg';
+import downArrow from '../../icons/down-arrow.svg';
+import rightArrow from '../../icons/forward-arrow.svg';
+import search from '../../icons/search.svg';
+import legend from '../../icons/legend.svg';
+import sort from '../../icons/sort.svg';
+import filter from '../../icons/filter.svg';
+import reset from '../../icons/reset.svg';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -39,8 +39,8 @@ class Dashboard extends React.Component {
   render() {
     return (
       <div className="dashboard">
-        <button className="dash-item" onClick={() => this.toggleDashItem(this.DashItem.schedule)} className="dash-item" id="schedule">
-          <h3><i className="fa fa-calendar"></i> E3 Conference Schedule</h3>
+        <button id="schedule" className="dash-item" onClick={() => this.toggleDashItem(this.DashItem.schedule)}>
+          <p><i className="fa fa-calendar"></i> E3 Conference Schedule</p>
           <img className="arrow-icon dash-icon" src={downArrow}/>
         </button>
         <div className="dash-item" id="vods">

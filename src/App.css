@@ -1,3 +1,16 @@
+:root {
+  --custom-gray: #585858;
+  --custom-light-gray: #D3D3D3;
+  --custom-red: #8B0000;
+  --dash-background: #1B1B1B;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
 @media screen and (max-width: 450px) {
   #app {
     height: 100%;
@@ -9,4 +22,8 @@
     margin-left: 4%;
     margin-right: 4%;
   }
+}
+
+p {
+  margin: 0;
 }

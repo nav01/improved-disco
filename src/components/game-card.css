@@ -10,7 +10,6 @@
 }
 
 .game-text {
-  margin: 0;
   position: absolute;
   z-index: 1;
   align-self: center;
@@ -18,13 +17,11 @@
 }
 
 .game-title {
-  margin: 0;
   font-size: 1.5em;
 }
 
 .exclusive {
   background: rgba(0,0,0,0.7);
-  margin: 0;
   font-size: 0.8em;
   text-align: center;
   width: 50%;
@@ -35,13 +32,6 @@
   color: #FFD300;
 }
 
-.game-image {
-  position: relative;
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
-
-}
 
 .visibility-off, .visibility-on {
   position: absolute;

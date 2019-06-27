@@ -31,13 +31,13 @@ function Legend () {
   ];
 
   return (
-    <div className="inline">
+    <div id="legend">
       {
         conferences.map((conf) => {
           return (
             <div className="legend-item">
               <GridIcon color={conf.color} />
-              <p>{conf.publisher}</p>
+              <span>{conf.publisher}</span>
             </div>
           )
         })

@@ -1,8 +1,10 @@
-.inline {
+#legend {
+  box-sizing: border-box;
   display: flex;
   white-space: nowrap;
   overflow-x: scroll;
-  border-top: 1px solid #585858;
+  border-top: 1px solid var(--custom-gray);
+  height: 40px;
 }
 
 .legend-item {
@@ -10,7 +12,7 @@
   align-items: center;
 }
 
-.legend-item p {
-  font-size: 0.7em;
+.legend-item span {
+  font-size: 0.8em;
   padding-right: 10px;
 }

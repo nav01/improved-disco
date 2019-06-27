@@ -12,7 +12,7 @@ function Navbar (props) {
       <li className="logo">
         <div>
           <img id="rewind" src={rewind} />
-          <p><span id="e3-e">E</span><span id="e3-3">3</span>RECAP</p>
+          <span><span id="e3-e">E</span><span id="e3-3">3</span>RECAP</span>
         </div>
       </li>
       <li className="navItemLarge">Home</li>

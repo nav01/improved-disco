@@ -1,10 +1,10 @@
 import React from 'react';
-import arrowDropDown from '../icons/arrow-drop-down.svg';
+import arrowDropDown from '../../icons/arrow-drop-down.svg';
 import './filters.css';
 
 function Filters () {
   return (
-    <table id="filter-temp">
+    <table className="dash-table-2-col" id="filters">
       <tr>
         <td>
           <button className="filter-item">

@@ -1,0 +1,22 @@
+#filters {
+  border-top: 1px solid #585858;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.filter-type {
+  text-align: left;
+  color: var(--custom-light-gray);
+}
+
+.drop-down {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}

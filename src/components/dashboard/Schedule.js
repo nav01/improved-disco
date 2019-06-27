@@ -31,7 +31,7 @@ function Schedule () {
   ];
 
   return (
-    <table id="conference-schedule">
+    <table className="dash-table-2-col" id="conference-schedule">
       <tr className="schedule-item">
         <th className="schedule-header conference">CONFERENCE</th>
         <th className="schedule-header conference-date">DATE</th>

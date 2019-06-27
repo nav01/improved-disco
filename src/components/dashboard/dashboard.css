@@ -1,0 +1,101 @@
+@media screen and (max-width: 450px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    color: var(--custom-light-gray);
+    background-color: var(--dash-background);
+    margin-bottom: 5%;
+  }
+
+  .dash-item {
+    display: flex;
+    box-sizing: border-box;
+    min-height: 40px;
+    border-bottom: 1px solid var(--custom-gray);
+    flex-grow: 1;
+    padding: 0 5%;
+    color: 	var(--custom-light-gray);
+  }
+
+  .dash-icon {
+    align-self: center;
+    width: 20px;
+    height: 20px;
+  }
+
+  #missed-stream {
+    color: var(--custom-red);
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  #catch-up {
+    font-size: 0.9em;
+  }
+
+  .arrow-icon {
+    margin-left: auto;
+  }
+
+  #search-announcements {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+  }
+
+  .filter-text {
+    color: var(--custom-light-gray);
+    font-size: 0.8em;
+  }
+
+  .tool {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    color: var(--custom-light-gray);
+  }
+
+  #tools {
+    padding: 0%;
+    border: none;
+  }
+
+  .tool-selected {
+    background: black;
+  }
+
+  /*
+    Tables with only two columns that have an inner border.
+  */
+  .dash-table-2-col {
+    border-collapse: collapse;
+    border-top: 1px solid var(--custom-gray);
+  }
+
+  .dash-table-2-col th:first-child {
+    border-right: 1px solid var(--custom-gray);
+
+  }
+  
+  .dash-table-2-col td, table th {
+    border-bottom: 1px solid  var(--custom-gray);
+  }
+
+  .dash-table-2-col tr:first-child th {
+    border-top: 0;
+  }
+
+  .dash-table-2-col tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .dash-table-2-col tr td:first-child {
+    border-right: 1px solid var(--custom-gray);
+  }
+}
