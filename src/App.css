@@ -11,6 +11,10 @@ button {
   border: none;
 }
 
+p {
+  margin: 0;
+}
+
 @media screen and (max-width: 450px) {
   #app {
     height: 100%;
@@ -22,8 +26,4 @@ button {
     margin-left: 4%;
     margin-right: 4%;
   }
-}
-
-p {
-  margin: 0;
 }
