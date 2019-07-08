@@ -7,17 +7,36 @@ class GameCard extends React.Component {
   constructor (props) {
     super(props);
 
+    this.imageRef = React.createRef();
     this.state = {
       visible: props.visible ? true : false,
+      loadImage: false,
     }
+
+    this.observer = new IntersectionObserver(([entry], observer) => {
+        if (entry.isIntersecting) {
+          observer.disconnect();
+          this.setState({loadImage: true});
+        }
+    }, {threshold: 0.5});
+  }
+
+  componentDidMount() {
+      this.observer.observe(this.imageRef.current);
+  }
+
+  componentWillUnmount() {
+    if (!this.state.loadImage)
+      this.observer.disconnect();
   }
 
   toggleVisibility = () => {
     this.setState((prevState) => ({visible: !prevState.visible}));
   }
+
   render() {
     return (
-      <div className="game-card">
+      <div ref={this.imageRef} className="game-card">
         {this.props.exclusive ? (
           <div className="game-text">
             <p className="game-title">{this.props.gameName}</p>
@@ -26,7 +45,11 @@ class GameCard extends React.Component {
         ) : (
           <p className="game-title game-text">{this.props.gameName}</p>
         )}
-        <img className="game-image" src={this.props.image} />
+        {
+          this.state.loadImage ?
+            <img className="game-image" src={this.props.image} />
+            : <img className="game-image" data-src={this.props.image} src="" />
+        }
         <div className="img-before"></div>
         {
           this.state.visible ?
