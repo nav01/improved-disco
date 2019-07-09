@@ -13,7 +13,9 @@
   position: absolute;
   z-index: 1;
   align-self: center;
+  text-align: center;
   color: white;
+  width: 90%;
 }
 
 .game-title {
@@ -24,7 +26,7 @@
   background: rgba(0,0,0,0.7);
   font-size: 0.8em;
   text-align: center;
-  width: 50%;
+  width: 35%;
   margin: 0 auto;
 }
 
