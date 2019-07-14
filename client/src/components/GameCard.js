@@ -1,6 +1,10 @@
 import React from 'react';
+
 import visibilityOff from '../icons/visibility-off.svg';
 import visibilityOn from '../icons/visibility-on.svg';
+import flipCard from '../icons/flip-card.svg';
+import movie from '../icons/movie.svg';
+
 import './game-card.css';
 
 class GameCard extends React.Component {
@@ -10,6 +14,7 @@ class GameCard extends React.Component {
     this.imageRef = React.createRef();
     this.state = {
       visible: props.visible ? true : false,
+      flipped: false,
       loadImage: false,
     }
 
@@ -31,30 +36,101 @@ class GameCard extends React.Component {
   }
 
   toggleVisibility = () => {
-    this.setState((prevState) => ({visible: !prevState.visible}));
+    this.setState(prevState => ({visible: !prevState.visible}));
+  }
+
+  flip = () => {
+    this.setState(prevState => ({flipped: !prevState.flipped}));
+  }
+
+
+  determineMediaClass = mediaLength => {
+    if (mediaLength % 2 === 1)
+      return 'card-back-media-odd';
+    else if (mediaLength === 2)
+      return 'card-back-media-col';
+    else if (mediaLength % 2 === 0)
+      return 'card-back-media-even';
   }
 
   render() {
+    let game = this.props.game;
     return (
       <div ref={this.imageRef} className="game-card">
-        {this.props.exclusive ? (
-          <div className="game-text">
-            <p className="game-title">{this.props.gameName}</p>
-            <p className="exclusive">&#9733; EXCLUSIVE</p>
+        {
+          !this.state.flipped ? <div onClick={this.flip} class="card-front">
+            {this.props.exclusive ? (
+              <div className="game-text">
+                <p className="game-title">{this.props.gameName}</p>
+                <p className="exclusive">&#9733; EXCLUSIVE</p>
+              </div>
+            ) : (
+              <p className="game-title game-text">{this.props.gameName}</p>
+            )}
+            {
+              this.state.loadImage ?
+                <img className="game-image" src={this.props.image} />
+                : <img className="game-image" data-src={this.props.image} src="" />
+            }
+            <div className="img-before"></div>
+            {
+              this.state.visible ?
+              <img onClick={this.toggleVisibility} className="card-icon visibility-off" src={visibilityOff} /> :
+              <img onClick={this.toggleVisibility} className="card-icon visibility-on" src={visibilityOn} />
+            }
           </div>
-        ) : (
-          <p className="game-title game-text">{this.props.gameName}</p>
-        )}
-        {
-          this.state.loadImage ?
-            <img className="game-image" src={this.props.image} />
-            : <img className="game-image" data-src={this.props.image} src="" />
-        }
-        <div className="img-before"></div>
-        {
-          this.state.visible ?
-          <img onClick={this.toggleVisibility} className="visibility-off" src={visibilityOff} /> :
-          <img onClick={this.toggleVisibility} className="visibility-on" src={visibilityOn} />
+          : <div class="card-back">
+            <div class="card-back-header">
+              <div class="card-back-header-left">
+                <p class="card-back-title">{game.title}</p>
+                {
+                  typeof game.developer === 'object' ?
+                    <a class="card-back-developer" href={game.developer.devLink}>{game.developer.devName}</a>
+                    :<p class="card-back-developer">{game.developer}</p>
+                }
+              </div>
+              <div class="card-back-header-right">
+                <img onClick={this.toggleVisibility} className="card-icon" src={visibilityOff} />
+                <img onClick={this.flip} className="card-icon" src={flipCard} />
+              </div>
+            </div>
+            <div class="card-back-lower">
+              <div class="card-back-details">
+                <div class="card-back-details-release-date">
+                  <p class="card-back-detail-header">Release Date</p>
+                  <p class="card-back-detail">{game.releaseDate}</p>
+                </div>
+                {
+                  game.platforms &&
+                  <div class="card-back-details-platforms">
+                    <p class="card-back-detail-header">Platforms</p>
+                    <p class="card-back-detail">{game.platforms.join(', ')}</p>
+                  </div>
+                }
+                {
+                  this.props.game.genre &&
+                  <div class="card-back-details-genre">
+                    <p class="card-back-detail-header">Genre</p>
+                    <p class="card-back-detail">{game.genre}</p>
+                  </div>
+                }
+              </div>
+              <div class={"card-back-media " + this.determineMediaClass(game.media.length)}>
+                {
+                  game.media.map(media =>
+                    <button
+                      class="card-back-media-item "
+                      data-link={media.mediaLink}
+                    >
+                      <img src={movie} />
+                      <br/>
+                      <span>{media.mediaType}</span>
+                    </button>
+                  )
+                }
+              </div>
+            </div>
+          </div>
         }
       </div>
     );

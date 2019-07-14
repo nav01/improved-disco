@@ -1,12 +1,125 @@
 .game-card {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   position: relative;
   width: 100%;
   height: 200px;
   margin-bottom: 2%;
   overflow: hidden;
+}
+
+.card-front {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-back {
+  display: flex;
+  flex-direction: column;
+  color: var(--custom-light-gray);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card-back-header {
+  padding-left: 3%;
+  display: flex;
+  max-width: 100%;
+  border-bottom: 1px solid var(--custom-gray);
+}
+
+.card-back-header-right {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.card-back-detail-header {
+  color: var(--custom-red);
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.card-back-title {
+  font-size: 1.1em;
+}
+
+.card-back-developer {
+  font-size: 0.7em;
+  color: var(--custom-gray);
+}
+
+.card-back-lower {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.card-back-details {
+  padding-top: 3%;
+  padding-left: 3%;
+  width: 40%;
+  border-right: 1px solid var(--custom-gray);
+}
+
+.card-back-detail {
+  font-size: 0.75em;
+}
+
+.card-back-media {
+  color: var(--custom-light-gray);
+  width: 60%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-back-media-item {
+  padding: 0;
+  color: var(--custom-light-gray);
+  font-size: 0.7em;
+  width: 50%;
+  flex-grow: 1;
+  text-align: center;
+  align-self: stretch;
+}
+
+/* For only 2 media items */
+.card-back-media-col {
+  flex-direction: column;
+}
+
+.card-back-media-col .card-back-media-item {
+  width: 100%;
+}
+
+.card-back-media-col .card-back-media-item:first-child {
+  border-bottom: 1px solid var(--custom-gray);
+}
+
+/* For odd number of media items, first takes up parent width */
+.card-back-media-odd .card-back-media-item:not(:first-child) {
+  border-top: 1px solid var(--custom-gray);
+}
+
+.card-back-media-odd .card-back-media-item:nth-child(even) {
+  border-right: 1px solid var(--custom-gray);
+}
+
+.card-back-media-odd .card-back-media-item:first-child {
+  width: 100%;
+  border: none;
+}
+
+/* For even number of media items. */
+.card-back-media-even .card-back-media-item:nth-child(odd) {
+  border-right: 1px solid var(--custom-gray);
+}
+
+.card-back-media-even .card-back-media-item:nth-last-child(n+3) {
+  border-bottom: 1px solid var(--custom-gray);
 }
 
 .game-text {
@@ -34,11 +147,13 @@
   color: #FFD300;
 }
 
+.card-icon {
+  width: 24px;
+  height: 24px;
+}
 
 .visibility-off, .visibility-on {
   position: absolute;
-  width: 24px;
-  height: 24px;
   align-self: flex-end;
   left: 0;
 }

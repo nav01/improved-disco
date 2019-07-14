@@ -48,6 +48,7 @@ class GameCards extends React.Component {
       <div id="game-cards">
         {games.slice(gamesIndexStart, gamesIndexEnd).map((game) =>
           <GameCard
+            game={game}
             gameName={game.title}
             image={game.image} exclusive={game.moreDetails.exclusive}
             visible={true}
