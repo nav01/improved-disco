@@ -13,7 +13,7 @@ class GameCard extends React.Component {
 
     this.imageRef = React.createRef();
     this.state = {
-      visible: props.visible ? true : false,
+      disabled: props.visible ? false : true,
       flipped: false,
       loadImage: false,
     }
@@ -35,8 +35,14 @@ class GameCard extends React.Component {
       this.observer.disconnect();
   }
 
-  toggleVisibility = () => {
-    this.setState(prevState => ({visible: !prevState.visible}));
+  toggleDisabled = (event) => {
+    //Visibility icons are in a clickable div so click event propogation needs to be stopped.
+    event.cancelBubble = true;
+    if(event.stopPropagation) event.stopPropagation();
+    this.setState(prevState => ({
+      disabled: !prevState.disabled,
+      flipped: !prevState.disabled ? false : prevState.flipped,
+    }));
   }
 
   flip = () => {
@@ -58,7 +64,7 @@ class GameCard extends React.Component {
     return (
       <div ref={this.imageRef} className="game-card">
         {
-          !this.state.flipped ? <div onClick={this.flip} class="card-front">
+          !this.state.flipped ? <div onClick={this.state.disabled ? null : this.flip} class="card-front">
             {this.props.exclusive ? (
               <div className="game-text">
                 <p className="game-title">{this.props.gameName}</p>
@@ -72,11 +78,12 @@ class GameCard extends React.Component {
                 <img className="game-image" src={this.props.image} />
                 : <img className="game-image" data-src={this.props.image} src="" />
             }
-            <div className="img-before"></div>
+            <div className={"img-before " + (this.state.disabled ? "img-before-disabled" : "img-before-enabled")}>
+            </div>
             {
-              this.state.visible ?
-              <img onClick={this.toggleVisibility} className="card-icon visibility-off" src={visibilityOff} /> :
-              <img onClick={this.toggleVisibility} className="card-icon visibility-on" src={visibilityOn} />
+              !this.state.disabled ?
+              <img onClick={this.toggleDisabled} className="card-icon visibility-off" src={visibilityOff} />
+              : <img onClick={this.toggleDisabled} className="card-icon visibility-on" src={visibilityOn} />
             }
           </div>
           : <div class="card-back">
@@ -90,7 +97,7 @@ class GameCard extends React.Component {
                 }
               </div>
               <div class="card-back-header-right">
-                <img onClick={this.toggleVisibility} className="card-icon" src={visibilityOff} />
+                <img onClick={this.toggleDisabled} className="card-icon" src={visibilityOff} />
                 <img onClick={this.flip} className="card-icon" src={flipCard} />
               </div>
             </div>

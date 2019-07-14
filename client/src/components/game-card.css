@@ -153,17 +153,27 @@
 }
 
 .visibility-off, .visibility-on {
+  z-index: 2;
   position: absolute;
   align-self: flex-end;
   left: 0;
 }
 
+/* Opaque overlay on front of game-card */
 .img-before {
-  z-index: 0.5;
   display: block;
   position: absolute;
   content: '';
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
+}
+
+.img-before-enabled {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.img-before-disabled {
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 1;
 }
