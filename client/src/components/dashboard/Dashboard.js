@@ -3,8 +3,10 @@ import Schedule from './Schedule';
 import Legend from './Legend';
 import Sort from './Sort';
 import Filters from './Filters';
-import './dashboard.css';
+import {connect} from 'react-redux';
+import {SEARCH} from '../../actions';
 
+import './dashboard.css';
 import downArrow from '../../icons/down-arrow.svg';
 import rightArrow from '../../icons/forward-arrow.svg';
 import search from '../../icons/search.svg';
@@ -12,6 +14,13 @@ import legend from '../../icons/legend.svg';
 import sort from '../../icons/sort.svg';
 import filter from '../../icons/filter.svg';
 import reset from '../../icons/reset.svg';
+
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+      updateSearch: (payload) => dispatch({type: SEARCH, payload}),
+    }
+}
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -52,7 +61,12 @@ class Dashboard extends React.Component {
         </div>
         <div className="dash-item" id="search">
           <img id="search-icon" className="dash-icon" src={search} />
-          <input id="search-announcements" type="text" placeholder="Search Game Title..." />
+          <input
+            onChange={(e) => this.props.updateSearch(e.target.value ? e.target.value: false)}
+            id="search-announcements"
+            type="text"
+            placeholder="Search Game Title..."
+            />
         </div>
         <div className="dash-item" id="tools">
           <button
@@ -90,4 +104,4 @@ class Dashboard extends React.Component {
   }
 }
 
-export default Dashboard;
+export default connect(null, mapDispatchToProps)(Dashboard);

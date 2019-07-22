@@ -1,11 +1,37 @@
 import React from 'react';
+import {connect} from 'react-redux';
+
+import {UPDATE_PAGE} from '../actions';
+
 import './games-nav.css';
+
 import chevronLeft from '../icons/chevron-left.svg';
 import chevronRight from '../icons/chevron-right.svg';
+
+const mapDispatchToProps = (dispatch) => {
+  return ({
+    updatePage: page => dispatch({type: UPDATE_PAGE, payload: page}),
+  });
+}
 
 class GamesNav extends React.Component {
   constructor (props) {
     super(props);
+  }
+
+  incrementPage  = () => {
+    let page = this.props.currentPage + 1;
+    this.props.updatePage(page > this.props.numPages ? 1 : page);
+  }
+
+  decrementPage = () => {
+      let page = this.props.currentPage - 1;
+      this.props.updatePage(page <= 0 ? this.props.numPages : page);
+  }
+
+  changePage = (pageNum) => {
+    if (!(this.props.currentPage === pageNum))
+      this.props.updatePage(pageNum);
   }
 
   render () {
@@ -13,7 +39,7 @@ class GamesNav extends React.Component {
 
     return (
       <div id="announcements-nav">
-        <a id="nav-left" href="#" onClick={this.props.decrementPage}>
+        <a id="nav-left" href="#" onClick={this.decrementPage}>
           <img className="nav-chevron" src={chevronLeft} />
         </a>
         {
@@ -22,14 +48,15 @@ class GamesNav extends React.Component {
               <a
                 className={this.props.currentPage === page ? "nav-page-num nav-page-num-selected" : "nav-page-num"}
                 href="#"
-                onClick={() => this.props.changePage(page)}
+                onClick={() => this.changePage(page)}
+                key={page}
               >
               {page}
               </a>
             )
           })
         }
-        <a id="nav-right" href="#" onClick={this.props.incrementPage}>
+        <a id="nav-right" href="#" onClick={this.incrementPage}>
           <img className="nav-chevron" src={chevronRight} />
         </a>
       </div>
@@ -37,4 +64,4 @@ class GamesNav extends React.Component {
   }
 }
 
-export default GamesNav;
+export default connect(null, mapDispatchToProps)(GamesNav);

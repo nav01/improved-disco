@@ -60,23 +60,24 @@ class GameCard extends React.Component {
   }
 
   render() {
-    let game = this.props.game;
+    let {game} = this.props;
+
     return (
       <div ref={this.imageRef} className="game-card">
         {
-          !this.state.flipped ? <div onClick={this.state.disabled ? null : this.flip} class="card-front">
-            {this.props.exclusive ? (
+          !this.state.flipped ? <div onClick={this.state.disabled ? null : this.flip} className="card-front">
+            {game.exclusive ? (
               <div className="game-text">
-                <p className="game-title">{this.props.gameName}</p>
+                <p className="game-title">{game.title}</p>
                 <p className="exclusive">&#9733; EXCLUSIVE</p>
               </div>
             ) : (
-              <p className="game-title game-text">{this.props.gameName}</p>
+              <p className="game-title game-text">{game.title}</p>
             )}
             {
               this.state.loadImage ?
-                <img className="game-image" src={this.props.image} />
-                : <img className="game-image" data-src={this.props.image} src="" />
+                <img className="game-image" src={game.image} />
+                : <img className="game-image" data-src={game.image} src="" />
             }
             <div className={"img-before " + (this.state.disabled ? "img-before-disabled" : "img-before-enabled")}>
             </div>
@@ -86,48 +87,49 @@ class GameCard extends React.Component {
               : <img onClick={this.toggleDisabled} className="card-icon visibility-on" src={visibilityOn} />
             }
           </div>
-          : <div class="card-back">
-            <div class="card-back-header">
-              <div class="card-back-header-left">
-                <p class="card-back-title">{game.title}</p>
+          : <div className="card-back">
+            <div className="card-back-header">
+              <div className="card-back-header-left">
+                <p className="card-back-title">{game.title}</p>
                 {
                   typeof game.developer === 'object' ?
-                    <a class="card-back-developer" href={game.developer.devLink}>{game.developer.devName}</a>
-                    :<p class="card-back-developer">{game.developer}</p>
+                    <a className="card-back-developer" href={game.developer.devLink}>{game.developer.devName}</a>
+                    :<p className="card-back-developer">{game.developer}</p>
                 }
               </div>
-              <div class="card-back-header-right">
+              <div className="card-back-header-right">
                 <img onClick={this.toggleDisabled} className="card-icon" src={visibilityOff} />
                 <img onClick={this.flip} className="card-icon" src={flipCard} />
               </div>
             </div>
-            <div class="card-back-lower">
-              <div class="card-back-details">
-                <div class="card-back-details-release-date">
-                  <p class="card-back-detail-header">Release Date</p>
-                  <p class="card-back-detail">{game.releaseDate}</p>
+            <div className="card-back-lower">
+              <div className="card-back-details">
+                <div className="card-back-details-release-date">
+                  <p className="card-back-detail-header">Release Date</p>
+                  <p className="card-back-detail">{game.releaseDate}</p>
                 </div>
                 {
                   game.platforms &&
-                  <div class="card-back-details-platforms">
-                    <p class="card-back-detail-header">Platforms</p>
-                    <p class="card-back-detail">{game.platforms.join(', ')}</p>
+                  <div className="card-back-details-platforms">
+                    <p className="card-back-detail-header">Platforms</p>
+                    <p className="card-back-detail">{game.platforms.join(', ')}</p>
                   </div>
                 }
                 {
-                  this.props.game.genre &&
-                  <div class="card-back-details-genre">
-                    <p class="card-back-detail-header">Genre</p>
-                    <p class="card-back-detail">{game.genre}</p>
+                  game.genre &&
+                  <div className="card-back-details-genre">
+                    <p className="card-back-detail-header">Genre</p>
+                    <p className="card-back-detail">{game.genre}</p>
                   </div>
                 }
               </div>
-              <div class={"card-back-media " + this.determineMediaClass(game.media.length)}>
+              <div className={"card-back-media " + this.determineMediaClass(game.media.length)}>
                 {
-                  game.media.map(media =>
+                  game.media.map((media, index) =>
                     <button
-                      class="card-back-media-item "
+                      className="card-back-media-item "
                       data-link={media.mediaLink}
+                      key={index}
                     >
                       <img src={movie} />
                       <br/>
