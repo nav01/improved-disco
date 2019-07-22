@@ -21,16 +21,12 @@ class GameCards extends React.Component {
     this.numPages = Math.ceil(games.length / this.gamesPerPage);
 
     this.state = {
-      currentPage: 1,
       games,
     }
   }
 
-
   filterByName = (title, search) =>
     title.toLowerCase().includes(search.toLowerCase()) ? true : false;
-
-
 
   filter = (games) => {
     return games.filter(game => {
@@ -40,7 +36,6 @@ class GameCards extends React.Component {
       return include;
     });
   }
-
 
   render() {
     let filteredGames = this.filter(games);
@@ -55,7 +50,7 @@ class GameCards extends React.Component {
           <GameCard
             game={game}
             visible={true}
-            key={index}
+            key={game.title + game.conference + game.day}
           />
         )}
         {(this.numPages > 1) &&

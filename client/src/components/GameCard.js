@@ -31,6 +31,7 @@ class GameCard extends React.Component {
   }
 
   componentWillUnmount() {
+    console.log("help, i am unmounting");
     if (!this.state.loadImage)
       this.observer.disconnect();
   }
