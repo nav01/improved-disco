@@ -1,3 +1,9 @@
+//manual edits to make
+//DeMagnete VR.day = 3
+//Police Stories.day = 3
+//Conan Chop Chop.day = 3
+//Chivalry 2.day = 3
+//Arizona Sunshine: The Damned DLC . day = 3
 //quick and dirty scraper for all the e3 data.  all data is loaded so there's no need to mess with pages and stuff.
 var games = [];
 
@@ -68,7 +74,10 @@ for(let i = 0; i < cardList.children.length; i++) {
 		return word[0].toUpperCase() + word.substring(1)
 	}).join(' ');
 
-	game.day = classes[3].split('-')[1];
+	if(classes[3] === 'pre-e3')
+		game.day = classes[3];
+	else 
+		game.day = classes[3].split('-')[1];
 
 	game.image = 'https://e3recap2019.b-cdn.net/images/game-cards/' + cardList.children[i].querySelector('.card-background').getAttribute('data-url') + '.jpg';
 	images.push(game.image);
@@ -85,6 +94,14 @@ for(let i = 0; i < cardList.children.length; i++) {
 	}
 
 	let additionalDetails = cardList.children[i].querySelector('.card-bottom');
+	/*
+		date formats
+		Month Year
+		Quarter Year
+		Year
+		month day, year
+		To Be Announced
+	*/
 	game.releaseDate = additionalDetails.querySelector('.release p').innerHTML;
 
 	try {
@@ -113,36 +130,41 @@ for(let i = 0; i < cardList.children.length; i++) {
 	}
 
 	//miscellaneous details
-	game.moreDetails = {};
+	game.moreDetails = [];
 
 	var reducer = (accumulator, currentVal) => {
 		return exclusivePlatforms.includes(currentVal) ? true: (accumulator || false);
 	}
 
 	if(classes.reduce(reducer, false))
-		game.moreDetails.exclusive = true;
+		game.moreDetails.push('exclusive');
+		// game.moreDetails.exclusive = true;
 	else
 		console.log('not found');
 
 	if (classes.includes(moreDetails.timedExclusive))
-		game.moreDetails.timedExclusive = true;
+		game.moreDetails.push('timed exclusive');
+		// game.moreDetails.timedExclusive = true;
 
 	if (classes.includes(moreDetails.epicExclusive))
-		game.moreDetails.epicStoreExclusive = true;
+		game.moreDetails.push('epic exclusive');
+		// game.moreDetails.epicStoreExclusive = true;
 
 	if (classes.includes(moreDetails.xboxPlayAnywhere))
-		game.moreDetails.xboxPlayAnywhere = true;
+		game.moreDetails.push('xbox play anywhere');
+		// game.moreDetails.xboxPlayAnywhere = true;
 
 	if (classes.includes(moreDetails.xboxGamePass))
-		game.moreDetails.xboxGamePass = true;
-
-	games.push(game);
+		game.moreDetails.push('xbox game pass');
+		// game.moreDetails.xboxGamePass = true;
 
 	//virtual reality
 	if (classes.includes(vr.oculus))
-		game.moreDetails.vr = 'oculus';
+		game.vr = 'oculus';
 	else if (classes.includes(vr.playstation))
-		game.moreDetails.vr = 'playstation';
+		game.vr = 'playstation';
 	else if (classes.includes(vr.allVr))
-		game.moreDetails.vr = 'all';
+		game.vr = 'all';
+	
+	games.push(game);
 }

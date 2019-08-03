@@ -1,0 +1,42 @@
+.filter-dropdown {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  position: absolute;
+  background-color: var(--dash-background);
+  border: 1px solid var(--custom-gray);
+}
+
+.filter-value-container {
+  display: flex;
+}
+
+.filter-value {
+  align-self: center;
+}
+
+/*
+Dropdown menus of filters higher in the list should be in front of dropdowns
+of filters lower in the list.
+*/
+#filter0, #filter1 {
+  z-index: 5;
+}
+
+#filter2, #filter3 {
+  z-index: 4;
+}
+
+#filter4, #filter5 {
+  z-index: 3;
+}
+
+#filter0, #filter2, #filter4 {
+  border-left: none;
+}
+
+#filter1, #filter3, #filter5 {
+  right: 0.25px; /* Revisit if bad alignment is seen 8*/
+  border-right: none;
+}

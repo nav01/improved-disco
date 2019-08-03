@@ -10,6 +10,7 @@ const mapStateToProps = (state) => {
   return {
     searchFilter: state.searchFilter,
     currentPage: state.currentPage,
+    filterGames: state.filterGames,
   }
 }
 
@@ -25,20 +26,8 @@ class GameCards extends React.Component {
     }
   }
 
-  filterByName = (title, search) =>
-    title.toLowerCase().includes(search.toLowerCase()) ? true : false;
-
-  filter = (games) => {
-    return games.filter(game => {
-      let include = true;
-      if (this.props.searchFilter)
-        include = include && this.filterByName(game.title, this.props.searchFilter);
-      return include;
-    });
-  }
-
   render() {
-    let filteredGames = this.filter(games);
+    let filteredGames = this.props.filterGames(games);
 
     this.numPages = Math.ceil(filteredGames.length / this.gamesPerPage);
     var gamesIndexStart = (this.props.currentPage - 1) * this.gamesPerPage;

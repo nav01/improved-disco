@@ -62,7 +62,7 @@ class Dashboard extends React.Component {
         <div className="dash-item" id="search">
           <img id="search-icon" className="dash-icon" src={search} />
           <input
-            onChange={(e) => this.props.updateSearch(e.target.value ? e.target.value: false)}
+            onChange={(e) => this.props.updateSearch(e.target.value)}
             id="search-announcements"
             type="text"
             placeholder="Search Game Title..."

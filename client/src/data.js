@@ -1,6 +1,6 @@
 var conferences = [
 	{
-		company: 'The Pokemon Company',
+		company: 'The Pokémon Company',
 		date: 'Jun 5th, 2019 @ 6:00 AM PDT',
 	},
 	{
@@ -55,7 +55,7 @@ var conferences = [
 		company: 'Nintendo',
 		date: 'Jun 11th, 2019 @ 9:00 AM PDT',
 	},
-]
+];
 
 var games = [
   {
@@ -75,9 +75,9 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -96,7 +96,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -115,9 +115,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -137,7 +137,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -158,7 +158,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -177,7 +177,7 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -198,7 +198,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -218,7 +218,7 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -240,7 +240,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -259,7 +259,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -285,7 +285,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -306,7 +306,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -325,7 +325,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -348,9 +348,9 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -376,9 +376,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -397,9 +397,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -418,9 +418,9 @@ var games = [
         "mediaType": "New Character"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -438,7 +438,7 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -461,9 +461,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -482,9 +482,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -503,9 +503,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -524,7 +524,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -546,7 +546,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -573,7 +573,7 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -592,9 +592,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -625,7 +625,7 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -643,9 +643,9 @@ var games = [
         "mediaType": "Launch Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -664,9 +664,9 @@ var games = [
         "mediaType": "Red Band Premier"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -685,9 +685,9 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -706,7 +706,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -729,9 +729,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -753,7 +753,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -768,7 +768,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Nintendo",
@@ -791,9 +791,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -812,9 +812,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -837,9 +837,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -866,9 +866,9 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -894,9 +894,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Nintendo",
@@ -915,9 +915,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -940,7 +940,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -963,7 +963,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -984,7 +984,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -1008,7 +1008,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -1031,11 +1031,11 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxPlayAnywhere": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox play anywhere",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Other",
@@ -1056,9 +1056,9 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -1082,9 +1082,9 @@ var games = [
         "mediaType": "Moze The Gunner Gameplay"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -1108,7 +1108,7 @@ var games = [
         "mediaType": "Extended Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -1132,7 +1132,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -1156,7 +1156,7 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1189,7 +1189,7 @@ var games = [
         "mediaType": "Meet the Cast"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1211,7 +1211,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1232,7 +1232,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1248,7 +1248,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1267,7 +1267,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1289,7 +1289,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1313,7 +1313,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1334,7 +1334,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1353,9 +1353,9 @@ var games = [
         "mediaType": "Expansion"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Square Enix",
@@ -1376,7 +1376,7 @@ var games = [
         "mediaType": "Overview"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1398,7 +1398,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1420,7 +1420,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1442,9 +1442,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Square Enix",
@@ -1463,9 +1463,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Square Enix",
@@ -1485,7 +1485,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1506,7 +1506,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Square Enix",
@@ -1536,9 +1536,9 @@ var games = [
         "mediaType": "Boss Battle"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Square Enix",
@@ -1564,7 +1564,7 @@ var games = [
         "mediaType": "Streamer Reactions"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1586,9 +1586,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1607,9 +1607,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1630,7 +1630,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1649,9 +1649,9 @@ var games = [
         "mediaType": "Early Access"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1675,7 +1675,7 @@ var games = [
         "mediaType": "Demo Teaser"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1696,7 +1696,7 @@ var games = [
         "mediaType": "Nintendo Launch"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1719,9 +1719,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Kinda Funny Games",
@@ -1743,11 +1742,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "epicStoreExclusive": true,
-      "vr": "all"
-    }
+    "moreDetails": [
+      "exclusive",
+      "epic exclusive"
+    ],
+    "vr": "all"
   },
   {
     "conference": "Kinda Funny Games",
@@ -1766,7 +1765,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1788,7 +1787,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1809,7 +1808,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1828,9 +1827,9 @@ var games = [
         "mediaType": "Showcase"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1851,7 +1850,7 @@ var games = [
         "mediaType": "Kickstarter"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1875,7 +1874,7 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1894,7 +1893,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1913,9 +1912,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1937,9 +1936,9 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -1955,7 +1954,7 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1977,7 +1976,7 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -1998,9 +1997,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -2019,9 +2018,9 @@ var games = [
         "mediaType": "New Character"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Kinda Funny Games",
@@ -2042,7 +2041,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Kinda Funny Games",
@@ -2061,9 +2060,9 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Ubisoft",
@@ -2086,7 +2085,7 @@ var games = [
         "mediaType": "Cinematic Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2112,7 +2111,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2131,7 +2130,7 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2164,7 +2163,7 @@ var games = [
         "mediaType": "Free Event"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2187,7 +2186,7 @@ var games = [
         "mediaType": "Gameplay Details"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2206,7 +2205,7 @@ var games = [
         "mediaType": "Event Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2235,7 +2234,7 @@ var games = [
         "mediaType": "Song List"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2257,7 +2256,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2293,7 +2292,7 @@ var games = [
         "mediaType": "Jon Bernthal Interview"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2316,7 +2315,7 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2340,7 +2339,7 @@ var games = [
         "mediaType": "Season Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2355,7 +2354,7 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2392,7 +2391,7 @@ var games = [
         "mediaType": "Collector's Edition"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2416,7 +2415,7 @@ var games = [
         "mediaType": "Mode"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2442,7 +2441,7 @@ var games = [
         "mediaType": "Mode"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2467,7 +2466,7 @@ var games = [
         "mediaType": "Season Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Ubisoft",
@@ -2491,7 +2490,7 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2516,7 +2515,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2532,7 +2531,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2557,7 +2556,7 @@ var games = [
         "mediaType": "Expansion"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2577,7 +2576,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2596,9 +2595,9 @@ var games = [
         "mediaType": "Update"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2620,7 +2619,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2640,7 +2639,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2659,9 +2658,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2679,10 +2678,10 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "epic exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2704,9 +2703,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2730,7 +2729,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2749,9 +2748,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2771,9 +2770,9 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2795,9 +2794,9 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2819,10 +2818,10 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "epic exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2845,7 +2844,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2866,9 +2865,9 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2892,7 +2891,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2908,7 +2907,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2929,7 +2928,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2950,7 +2949,7 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2969,9 +2968,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2990,9 +2989,9 @@ var games = [
         "mediaType": "Gameplay Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3018,7 +3017,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3040,9 +3039,9 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3064,9 +3063,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3090,7 +3089,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3112,9 +3111,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Uploadvr",
@@ -3129,9 +3128,8 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3146,9 +3144,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3163,9 +3160,8 @@ var games = [
         "mediaType": "VR Footage"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3183,9 +3179,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3200,9 +3195,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3217,9 +3211,8 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {
-      "vr": "oculus"
-    }
+    "moreDetails": [],
+    "vr": "oculus"
   },
   {
     "conference": "Uploadvr",
@@ -3234,9 +3227,8 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3251,9 +3243,8 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3268,9 +3259,8 @@ var games = [
         "mediaType": "Reveal Trailer"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3288,9 +3278,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3308,10 +3297,10 @@ var games = [
         "mediaType": "DLC Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "vr": "playstation"
-    }
+    "moreDetails": [
+      "exclusive"
+    ],
+    "vr": "playstation"
   },
   {
     "conference": "Uploadvr",
@@ -3330,9 +3319,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3352,9 +3340,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3369,9 +3356,8 @@ var games = [
         "mediaType": "Reveal Trailer"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3390,9 +3376,8 @@ var games = [
         "mediaType": "Update"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3411,9 +3396,8 @@ var games = [
         "mediaType": "VR Segment"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3428,9 +3412,8 @@ var games = [
         "mediaType": "VR Segment"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3446,9 +3429,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3468,9 +3450,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Uploadvr",
@@ -3489,9 +3470,8 @@ var games = [
         "mediaType": "Update"
       }
     ],
-    "moreDetails": {
-      "vr": "all"
-    }
+    "moreDetails": [],
+    "vr": "all"
   },
   {
     "conference": "Other",
@@ -3515,7 +3495,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -3537,9 +3517,9 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -3561,9 +3541,9 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -3587,7 +3567,7 @@ var games = [
         "mediaType": "Demo"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -3609,9 +3589,9 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
@@ -3627,7 +3607,7 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -3651,7 +3631,7 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3674,7 +3654,7 @@ var games = [
         "mediaType": "Release Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3697,7 +3677,7 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3713,7 +3693,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3728,7 +3708,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3746,7 +3726,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Devolver Digital",
@@ -3765,7 +3745,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3803,7 +3783,7 @@ var games = [
         "mediaType": "Demo 2"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3818,7 +3798,7 @@ var games = [
         "mediaType": "Presentation"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3836,7 +3816,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3862,7 +3842,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3887,7 +3867,7 @@ var games = [
         "mediaType": "DLC Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3919,7 +3899,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3941,7 +3921,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3966,7 +3946,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -3985,7 +3965,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -4021,7 +4001,7 @@ var games = [
         "mediaType": "Nuclear Winter"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Bethesda",
@@ -4048,7 +4028,7 @@ var games = [
         "mediaType": "Updates Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4071,9 +4051,9 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4088,7 +4068,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4103,7 +4083,7 @@ var games = [
         "mediaType": "Presentation"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4126,7 +4106,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4150,9 +4130,9 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4176,7 +4156,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4199,10 +4179,10 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {
-      "timedExclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "timed exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4226,7 +4206,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4248,7 +4228,7 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4271,11 +4251,11 @@ var games = [
         "mediaType": "Expansion Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxPlayAnywhere": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox play anywhere",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4298,11 +4278,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxPlayAnywhere": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox play anywhere",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4326,7 +4306,7 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4348,9 +4328,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4385,10 +4365,10 @@ var games = [
         "mediaType": "Full Presentation"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4408,9 +4388,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4431,7 +4411,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4455,7 +4435,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4477,7 +4457,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4511,9 +4491,9 @@ var games = [
         "mediaType": "Gameplay 2"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4539,9 +4519,9 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4564,10 +4544,10 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4587,10 +4567,10 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4609,9 +4589,9 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4627,7 +4607,7 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4646,7 +4626,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4669,9 +4649,9 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4696,9 +4676,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4726,7 +4706,7 @@ var games = [
         "mediaType": "Keanu Reeves Presentation"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4749,9 +4729,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4775,7 +4755,7 @@ var games = [
         "mediaType": "Story Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Microsoft",
@@ -4800,9 +4780,9 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4825,10 +4805,10 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4851,10 +4831,10 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Microsoft",
@@ -4877,10 +4857,10 @@ var games = [
         "mediaType": "Story/Gameplay"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true,
-      "xboxGamePass": true
-    }
+    "moreDetails": [
+      "epic exclusive",
+      "xbox game pass"
+    ]
   },
   {
     "conference": "Other",
@@ -4895,7 +4875,7 @@ var games = [
         "mediaType": "Studios Overview"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -4918,7 +4898,7 @@ var games = [
         "mediaType": "DLC Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -4944,7 +4924,7 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
@@ -4966,7 +4946,7 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -4991,7 +4971,7 @@ var games = [
         "mediaType": "Expansion Trailer"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5015,7 +4995,7 @@ var games = [
         "mediaType": "Superstar Journey"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5039,7 +5019,7 @@ var games = [
         "mediaType": "VOLTA Football"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5067,7 +5047,7 @@ var games = [
         "mediaType": "Upcoming Map"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5099,7 +5079,7 @@ var games = [
         "mediaType": "CQC Maps"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5135,7 +5115,7 @@ var games = [
         "mediaType": "New Weapon"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Electronic Arts",
@@ -5159,11 +5139,11 @@ var games = [
         "mediaType": "Gameplay Demo"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/1rNYZYVR8P0.jpg",
     "title": "Destroy All Humans!",
     "developer": {
@@ -5183,11 +5163,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/2OuHmGfihfw.jpg",
     "title": "Yooka-Laylee and the Impossible Lair",
     "developer": {
@@ -5208,11 +5188,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/QcX96Q6ZIu4.jpg",
     "title": "Lost Words: Beyond the Page",
     "developer": {
@@ -5232,11 +5212,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/u-4yqyCvfpE.jpg",
     "title": "Control",
     "developer": {
@@ -5256,13 +5236,13 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {
-      "epicStoreExclusive": true
-    }
+    "moreDetails": [
+      "epic exclusive"
+    ]
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/7lJyK95YkVQ.jpg",
     "title": "Tom Clancy's Ghost Recon: Breakpoint",
     "developer": {
@@ -5282,11 +5262,11 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/lMdsrZ1otlA.jpg",
     "title": "Genshin Impact",
     "developer": {
@@ -5307,11 +5287,11 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/YKdKlMHykvM.jpg",
     "title": "Stormland",
     "developer": {
@@ -5326,13 +5306,12 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {
-      "vr": "oculus"
-    }
+    "moreDetails": [],
+    "vr": "oculus"
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/WAcJBgnbrKY.jpg",
     "title": "GreedFall",
     "developer": {
@@ -5352,11 +5331,11 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/pvGprYy0lZk.jpg",
     "title": "Sniper Ghost Warrior Contracts",
     "developer": {
@@ -5376,11 +5355,11 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/JWJCztW5hQw.jpg",
     "title": "Citizens of Space",
     "developer": {
@@ -5401,11 +5380,11 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/GuWQn5oMIDQ.jpg",
     "title": "They Are Billions",
     "developer": {
@@ -5425,11 +5404,11 @@ var games = [
         "mediaType": "Announce Teaser"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Google Stadia",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/sdzu3xLtSQo.jpg",
     "title": "GYLT",
     "developer": {
@@ -5447,13 +5426,13 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Google Stadia",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/hUUCpdc9-6I.jpg",
     "title": "Get Packed",
     "developer": {
@@ -5471,13 +5450,13 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/OcP0WdH7rTs.jpg",
     "title": "Baldur's Gate 3",
     "developer": {
@@ -5500,11 +5479,11 @@ var games = [
         "mediaType": "Community Update"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/hNVicO5mBq0.jpg",
     "title": "Ary and The Secret of Seasons",
     "developer": {
@@ -5525,11 +5504,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/UQ5ifGqYWTI.jpg",
     "title": "Darksiders Genesis",
     "developer": {
@@ -5550,11 +5529,11 @@ var games = [
         "mediaType": "Story Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/swQBJj251d4.jpg",
     "title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
     "developer": {
@@ -5575,11 +5554,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "The Pokémon Company",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/p_dgvgpC8Nw.jpg",
     "title": "Pokémon Sword and Pokémon Shield",
     "developer": {
@@ -5597,13 +5576,13 @@ var games = [
         "mediaType": "Gameplay Reveal"
       }
     ],
-    "moreDetails": {
-      "exclusive": true
-    }
+    "moreDetails": [
+      "exclusive"
+    ]
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/vNFY8hWggT0.jpg",
     "title": "JUMANJI: The Video Game",
     "developer": {
@@ -5624,11 +5603,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/seGW4vdfL7A.jpg",
     "title": "Blasphemous",
     "developer": {
@@ -5655,11 +5634,11 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/I0I4tqV7n9U.jpg",
     "title": "Raging Loop",
     "developer": {
@@ -5678,11 +5657,11 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   },
   {
     "conference": "Other",
-    "day": "e3",
+    "day": "pre-e3",
     "image": "https://e3recap2019.b-cdn.net/images/game-cards/V7MTwlUHdiA.jpg",
     "title": "Kings of Lorn: The Fall of Ebris",
     "developer": {
@@ -5702,11 +5681,11 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": {}
+    "moreDetails": []
   }
-]
+];
 
 module.exports = {
 	conferences,
 	games,
-}
+};

@@ -5,27 +5,21 @@ import Dashboard from './components/dashboard/Dashboard';
 import GameCards from './components/GameCards';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-import {UPDATE_FILTERS, SEARCH, UPDATE_PAGE} from './actions';
+import reducer from './reducer';
 
 import chevronLeft from './icons/chevron-left.svg';
 import chevronRight from './icons/chevron-right.svg';
 
 import './App.css';
 
-function reducer (state = {}, action) {
-  switch (action.type) {
-    case SEARCH:
-      return {searchFilter: action.payload, currentPage: 1};
-    case UPDATE_FILTERS:
-      return {currentPage: 1};
-    case UPDATE_PAGE:
-      return {currentPage: action.payload};
-    default:
-      return state;
-  }
+const initialState = {
+  currentPage: 1,
+  filtersInternal: [],
+  searchFilter: '',
+  filterGames: (games) => games,
 }
 
-const store = createStore(reducer, {currentPage: 1});
+const store = createStore(reducer, initialState);
 
 function App() {
   return (

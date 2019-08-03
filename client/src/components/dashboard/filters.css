@@ -1,13 +1,35 @@
 #filters {
-  border-top: 1px solid #585858;
+  border-top: 1px solid var(--custom-gray);
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#filters .filter-item-container:nth-child(odd) {
+  border-bottom: 1px solid var(--custom-gray);
+  border-right: 1px solid var(--custom-gray);
+}
+
+#filters .filter-item-container:nth-child(even) {
+  border-bottom: 1px solid var(--custom-gray);
+}
+
+#filters .filter-item-container:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
+.filter-item-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
 }
 
 .filter-item {
   display: flex;
   align-items: center;
   text-align: left;
-  width: 100%;
   font-size: 0.9em;
+  width: 100%;
 }
 
 .filter-type {
