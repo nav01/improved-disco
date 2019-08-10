@@ -77,7 +77,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:18.408Z\""
   },
   {
     "conference": "Other",
@@ -96,7 +97,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:17.408Z\""
   },
   {
     "conference": "Other",
@@ -117,7 +119,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:16.408Z\""
   },
   {
     "conference": "Other",
@@ -137,7 +140,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:15.408Z\""
   },
   {
     "conference": "Other",
@@ -158,7 +162,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:14.408Z\""
   },
   {
     "conference": "Other",
@@ -177,7 +182,8 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:13.408Z\""
   },
   {
     "conference": "Other",
@@ -198,7 +204,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:12.408Z\""
   },
   {
     "conference": "Other",
@@ -218,7 +225,8 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:11.408Z\""
   },
   {
     "conference": "Other",
@@ -240,7 +248,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:10.408Z\""
   },
   {
     "conference": "Other",
@@ -259,7 +268,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:09.408Z\""
   },
   {
     "conference": "Other",
@@ -285,7 +295,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:08.408Z\""
   },
   {
     "conference": "Other",
@@ -306,7 +317,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:07.408Z\""
   },
   {
     "conference": "Other",
@@ -325,7 +337,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:06.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -350,7 +363,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:05.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -378,7 +392,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:04.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -399,7 +414,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:03.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -420,7 +436,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:02.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -438,7 +455,8 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:01:01.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -463,7 +481,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:01:00.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -484,7 +503,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:59.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -505,7 +525,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:58.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -524,7 +545,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:57.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -546,7 +568,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:56.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -573,7 +596,8 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:55.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -594,7 +618,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:54.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -625,7 +650,8 @@ var games = [
         "mediaType": "Gameplay Pt.2"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:53.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -645,7 +671,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:52.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -666,7 +693,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:51.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -687,7 +715,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:50.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -706,7 +735,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:49.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -731,7 +761,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:48.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -753,7 +784,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:47.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -768,7 +800,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:46.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -793,7 +826,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:45.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -814,7 +848,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:44.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -839,7 +874,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:43.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -868,7 +904,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:42.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -896,7 +933,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:41.408Z\""
   },
   {
     "conference": "Nintendo",
@@ -917,7 +955,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:40.408Z\""
   },
   {
     "conference": "Other",
@@ -940,7 +979,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:39.408Z\""
   },
   {
     "conference": "Other",
@@ -963,7 +1003,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:38.408Z\""
   },
   {
     "conference": "Other",
@@ -984,7 +1025,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:37.408Z\""
   },
   {
     "conference": "Other",
@@ -1008,7 +1050,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:36.408Z\""
   },
   {
     "conference": "Other",
@@ -1035,7 +1078,8 @@ var games = [
       "exclusive",
       "xbox play anywhere",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:35.408Z\""
   },
   {
     "conference": "Other",
@@ -1058,7 +1102,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:34.408Z\""
   },
   {
     "conference": "Other",
@@ -1084,7 +1129,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:33.408Z\""
   },
   {
     "conference": "Other",
@@ -1108,7 +1154,8 @@ var games = [
         "mediaType": "Extended Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:32.408Z\""
   },
   {
     "conference": "Other",
@@ -1132,7 +1179,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:31.408Z\""
   },
   {
     "conference": "Other",
@@ -1156,7 +1204,8 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:30.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1189,7 +1238,8 @@ var games = [
         "mediaType": "Meet the Cast"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:29.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1211,7 +1261,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:28.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1232,7 +1283,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:27.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1248,7 +1300,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:26.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1267,7 +1320,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:25.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1289,7 +1343,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:24.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1313,7 +1368,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:23.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1334,7 +1390,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:22.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1355,7 +1412,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:21.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1376,7 +1434,8 @@ var games = [
         "mediaType": "Overview"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:20.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1398,7 +1457,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:19.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1420,7 +1480,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:18.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1444,7 +1505,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:17.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1465,7 +1527,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:16.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1485,7 +1548,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:15.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1506,7 +1570,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:14.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1538,7 +1603,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:13.408Z\""
   },
   {
     "conference": "Square Enix",
@@ -1564,7 +1630,8 @@ var games = [
         "mediaType": "Streamer Reactions"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:12.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1588,7 +1655,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:11.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1609,7 +1677,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:10.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1630,7 +1699,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:09.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1651,7 +1721,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:08.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1675,7 +1746,8 @@ var games = [
         "mediaType": "Demo Teaser"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:07.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1696,7 +1768,8 @@ var games = [
         "mediaType": "Nintendo Launch"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:06.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1720,7 +1793,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T02:00:05.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1746,7 +1820,8 @@ var games = [
       "exclusive",
       "epic exclusive"
     ],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T02:00:04.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1765,7 +1840,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:03.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1787,7 +1863,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:02.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1808,7 +1885,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T02:00:01.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1829,7 +1907,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T02:00:00.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1850,7 +1929,8 @@ var games = [
         "mediaType": "Kickstarter"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:59.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1874,7 +1954,8 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:58.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1893,7 +1974,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:57.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1914,7 +1996,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:56.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1938,7 +2021,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:55.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1954,7 +2038,8 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:54.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1976,7 +2061,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:53.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -1999,7 +2085,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:52.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -2020,7 +2107,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:51.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -2041,7 +2129,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:50.408Z\""
   },
   {
     "conference": "Kinda Funny Games",
@@ -2062,7 +2151,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:49.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2085,7 +2175,8 @@ var games = [
         "mediaType": "Cinematic Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:48.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2111,7 +2202,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:47.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2130,7 +2222,8 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:46.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2163,7 +2256,8 @@ var games = [
         "mediaType": "Free Event"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:45.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2186,7 +2280,8 @@ var games = [
         "mediaType": "Gameplay Details"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:44.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2205,7 +2300,8 @@ var games = [
         "mediaType": "Event Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:43.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2234,7 +2330,8 @@ var games = [
         "mediaType": "Song List"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:42.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2256,7 +2353,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:41.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2292,7 +2390,8 @@ var games = [
         "mediaType": "Jon Bernthal Interview"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:40.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2315,7 +2414,8 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:39.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2339,7 +2439,8 @@ var games = [
         "mediaType": "Season Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:38.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2354,7 +2455,8 @@ var games = [
         "mediaType": "Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:37.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2391,7 +2493,8 @@ var games = [
         "mediaType": "Collector's Edition"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:36.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2415,7 +2518,8 @@ var games = [
         "mediaType": "Mode"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:35.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2441,7 +2545,8 @@ var games = [
         "mediaType": "Mode"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:34.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2466,7 +2571,8 @@ var games = [
         "mediaType": "Season Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:33.408Z\""
   },
   {
     "conference": "Ubisoft",
@@ -2490,7 +2596,8 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:32.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2515,7 +2622,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:31.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2531,7 +2639,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:30.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2556,7 +2665,8 @@ var games = [
         "mediaType": "Expansion"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:29.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2576,7 +2686,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:28.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2597,7 +2708,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:27.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2619,7 +2731,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:26.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2639,7 +2752,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:25.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2660,7 +2774,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:24.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2681,7 +2796,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:23.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2705,7 +2821,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:22.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2729,7 +2846,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:21.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2750,7 +2868,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:20.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2772,7 +2891,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:19.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2796,7 +2916,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:18.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2821,7 +2942,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:17.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2844,7 +2966,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:16.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2867,7 +2990,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:15.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2891,7 +3015,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:14.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2907,7 +3032,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:13.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2928,7 +3054,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:12.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2949,7 +3076,8 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:11.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2970,7 +3098,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:10.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -2991,7 +3120,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:09.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3017,7 +3147,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:08.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3041,7 +3172,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:07.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3065,7 +3197,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:06.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3089,7 +3222,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:59:05.408Z\""
   },
   {
     "conference": "The Pc Gaming Show",
@@ -3113,7 +3247,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:59:04.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3129,7 +3264,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:59:03.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3145,7 +3281,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:59:02.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3161,7 +3298,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:59:01.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3180,7 +3318,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:59:00.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3196,7 +3335,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:59.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3212,7 +3352,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "oculus"
+    "vr": "oculus",
+    "date": "\"2019-08-07T01:58:58.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3228,7 +3369,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:57.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3244,7 +3386,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:56.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3260,7 +3403,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:55.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3279,7 +3423,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:54.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3300,7 +3445,8 @@ var games = [
     "moreDetails": [
       "exclusive"
     ],
-    "vr": "playstation"
+    "vr": "playstation",
+    "date": "\"2019-08-07T01:58:53.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3320,7 +3466,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:52.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3341,7 +3488,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:51.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3357,7 +3505,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:50.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3377,7 +3526,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:49.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3397,7 +3547,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:48.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3413,7 +3564,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:47.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3430,7 +3582,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:46.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3451,7 +3604,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:45.408Z\""
   },
   {
     "conference": "Uploadvr",
@@ -3471,7 +3625,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "all"
+    "vr": "all",
+    "date": "\"2019-08-07T01:58:44.408Z\""
   },
   {
     "conference": "Other",
@@ -3495,7 +3650,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:43.408Z\""
   },
   {
     "conference": "Other",
@@ -3519,7 +3675,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:42.408Z\""
   },
   {
     "conference": "Other",
@@ -3543,7 +3700,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:41.408Z\""
   },
   {
     "conference": "Other",
@@ -3567,7 +3725,8 @@ var games = [
         "mediaType": "Demo"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:40.408Z\""
   },
   {
     "conference": "Other",
@@ -3591,7 +3750,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:39.408Z\""
   },
   {
     "conference": "Other",
@@ -3607,7 +3767,8 @@ var games = [
         "mediaType": "Gameplay Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:38.408Z\""
   },
   {
     "conference": "Other",
@@ -3631,7 +3792,8 @@ var games = [
         "mediaType": "DLC"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:37.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3654,7 +3816,8 @@ var games = [
         "mediaType": "Release Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:36.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3677,7 +3840,8 @@ var games = [
         "mediaType": "Release Date Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:35.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3693,7 +3857,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:34.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3708,7 +3873,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:33.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3726,7 +3892,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:32.408Z\""
   },
   {
     "conference": "Devolver Digital",
@@ -3745,7 +3912,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:31.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3783,7 +3951,8 @@ var games = [
         "mediaType": "Demo 2"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:30.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3798,7 +3967,8 @@ var games = [
         "mediaType": "Presentation"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:29.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3816,7 +3986,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:28.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3842,7 +4013,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:27.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3867,7 +4039,8 @@ var games = [
         "mediaType": "DLC Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:26.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3899,7 +4072,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:25.408Z\""
   },
   {
     "conference": "Bethesda",
@@ -3921,7 +4095,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:24.407Z\""
   },
   {
     "conference": "Bethesda",
@@ -3946,7 +4121,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:23.407Z\""
   },
   {
     "conference": "Bethesda",
@@ -3965,7 +4141,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:22.407Z\""
   },
   {
     "conference": "Bethesda",
@@ -4001,7 +4178,8 @@ var games = [
         "mediaType": "Nuclear Winter"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:21.407Z\""
   },
   {
     "conference": "Bethesda",
@@ -4028,7 +4206,8 @@ var games = [
         "mediaType": "Updates Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:20.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4053,7 +4232,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:19.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4068,7 +4248,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:18.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4083,7 +4264,8 @@ var games = [
         "mediaType": "Presentation"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:17.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4106,7 +4288,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:16.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4132,7 +4315,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:15.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4156,7 +4340,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:14.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4182,7 +4367,8 @@ var games = [
     "moreDetails": [
       "timed exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:13.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4206,7 +4392,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:12.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4228,7 +4415,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:11.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4255,7 +4443,8 @@ var games = [
       "exclusive",
       "xbox play anywhere",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:10.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4282,7 +4471,8 @@ var games = [
       "exclusive",
       "xbox play anywhere",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:09.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4306,7 +4496,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:08.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4330,7 +4521,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:07.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4368,7 +4560,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:06.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4390,7 +4583,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:05.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4411,7 +4605,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:04.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4435,7 +4630,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:03.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4457,7 +4653,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:58:02.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4493,7 +4690,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:01.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4521,7 +4719,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:58:00.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4547,7 +4746,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:59.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4570,7 +4770,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:58.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4591,7 +4792,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:57.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4607,7 +4809,8 @@ var games = [
         "mediaType": "Highlight Reel"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:56.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4626,7 +4829,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:55.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4651,7 +4855,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:54.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4678,7 +4883,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:53.407Z\""
   },
   {
     "conference": "Microsoft",
@@ -4706,7 +4912,8 @@ var games = [
         "mediaType": "Keanu Reeves Presentation"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:52.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4731,7 +4938,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:51.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4755,7 +4963,8 @@ var games = [
         "mediaType": "Story Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:50.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4782,7 +4991,8 @@ var games = [
     ],
     "moreDetails": [
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:49.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4808,7 +5018,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:48.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4834,7 +5045,8 @@ var games = [
     "moreDetails": [
       "exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:47.404Z\""
   },
   {
     "conference": "Microsoft",
@@ -4860,7 +5072,8 @@ var games = [
     "moreDetails": [
       "epic exclusive",
       "xbox game pass"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:46.404Z\""
   },
   {
     "conference": "Other",
@@ -4875,7 +5088,8 @@ var games = [
         "mediaType": "Studios Overview"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:45.404Z\""
   },
   {
     "conference": "Other",
@@ -4898,7 +5112,8 @@ var games = [
         "mediaType": "DLC Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:44.404Z\""
   },
   {
     "conference": "Other",
@@ -4924,7 +5139,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:43.404Z\""
   },
   {
     "conference": "Other",
@@ -4946,7 +5162,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:42.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -4971,7 +5188,8 @@ var games = [
         "mediaType": "Expansion Trailer"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:41.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -4995,7 +5213,8 @@ var games = [
         "mediaType": "Superstar Journey"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:40.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -5019,7 +5238,8 @@ var games = [
         "mediaType": "VOLTA Football"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:39.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -5047,7 +5267,8 @@ var games = [
         "mediaType": "Upcoming Map"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:38.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -5079,7 +5300,8 @@ var games = [
         "mediaType": "CQC Maps"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:37.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -5115,7 +5337,8 @@ var games = [
         "mediaType": "New Weapon"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:36.404Z\""
   },
   {
     "conference": "Electronic Arts",
@@ -5139,7 +5362,8 @@ var games = [
         "mediaType": "Gameplay Demo"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:35.404Z\""
   },
   {
     "conference": "Other",
@@ -5163,7 +5387,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:34.404Z\""
   },
   {
     "conference": "Other",
@@ -5188,7 +5413,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:33.404Z\""
   },
   {
     "conference": "Other",
@@ -5212,7 +5438,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:32.404Z\""
   },
   {
     "conference": "Other",
@@ -5238,7 +5465,8 @@ var games = [
     ],
     "moreDetails": [
       "epic exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:31.404Z\""
   },
   {
     "conference": "Other",
@@ -5262,7 +5490,8 @@ var games = [
         "mediaType": "Cinematic"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:30.404Z\""
   },
   {
     "conference": "Other",
@@ -5287,7 +5516,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:29.404Z\""
   },
   {
     "conference": "Other",
@@ -5307,7 +5537,8 @@ var games = [
       }
     ],
     "moreDetails": [],
-    "vr": "oculus"
+    "vr": "oculus",
+    "date": "\"2019-08-07T01:57:28.404Z\""
   },
   {
     "conference": "Other",
@@ -5331,7 +5562,8 @@ var games = [
         "mediaType": "Story"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:27.404Z\""
   },
   {
     "conference": "Other",
@@ -5355,7 +5587,8 @@ var games = [
         "mediaType": "Teaser"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:26.404Z\""
   },
   {
     "conference": "Other",
@@ -5380,7 +5613,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:25.404Z\""
   },
   {
     "conference": "Other",
@@ -5404,7 +5638,8 @@ var games = [
         "mediaType": "Announce Teaser"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:24.404Z\""
   },
   {
     "conference": "Google Stadia",
@@ -5428,7 +5663,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:23.404Z\""
   },
   {
     "conference": "Google Stadia",
@@ -5452,7 +5688,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:22.404Z\""
   },
   {
     "conference": "Other",
@@ -5479,7 +5716,8 @@ var games = [
         "mediaType": "Community Update"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:21.404Z\""
   },
   {
     "conference": "Other",
@@ -5504,7 +5742,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:20.404Z\""
   },
   {
     "conference": "Other",
@@ -5529,7 +5768,8 @@ var games = [
         "mediaType": "Story Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:19.404Z\""
   },
   {
     "conference": "Other",
@@ -5554,7 +5794,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:18.404Z\""
   },
   {
     "conference": "The Pokémon Company",
@@ -5578,7 +5819,8 @@ var games = [
     ],
     "moreDetails": [
       "exclusive"
-    ]
+    ],
+    "date": "\"2019-08-07T01:57:17.404Z\""
   },
   {
     "conference": "Other",
@@ -5603,7 +5845,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:16.404Z\""
   },
   {
     "conference": "Other",
@@ -5634,7 +5877,8 @@ var games = [
         "mediaType": "Gameplay"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:15.404Z\""
   },
   {
     "conference": "Other",
@@ -5657,7 +5901,8 @@ var games = [
         "mediaType": "Announcement"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:14.404Z\""
   },
   {
     "conference": "Other",
@@ -5681,7 +5926,8 @@ var games = [
         "mediaType": "Reveal"
       }
     ],
-    "moreDetails": []
+    "moreDetails": [],
+    "date": "\"2019-08-07T01:57:13.404Z\""
   }
 ];
 

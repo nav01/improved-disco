@@ -13,10 +13,10 @@ import chevronRight from './icons/chevron-right.svg';
 import './App.css';
 
 const initialState = {
+  sortOption: 1, //REVISIT, SHOULD BE SORT ENUM
   currentPage: 1,
-  filtersInternal: [],
+  filters: [],
   searchFilter: '',
-  filterGames: (games) => games,
 }
 
 const store = createStore(reducer, initialState);

@@ -1,4 +1,10 @@
-import {UPDATE_FILTERS, REMOVE_FILTER, SEARCH, UPDATE_PAGE} from './actions';
+import {
+  CHANGE_SORT_OPTION,
+  UPDATE_FILTERS,
+  REMOVE_FILTER,
+  SEARCH,
+  UPDATE_PAGE
+} from './actions';
 
 const makeGamesFilter = (searchFilter, otherFilters) => {
   return games =>
@@ -6,7 +12,7 @@ const makeGamesFilter = (searchFilter, otherFilters) => {
         return game.title.toLowerCase().includes(searchFilter.toLowerCase()) &&
           otherFilters.every(filter => filter(game));
     });
-}
+};
 
 export default function reducer (state = {}, action) {
   switch (action.type) {
@@ -14,48 +20,32 @@ export default function reducer (state = {}, action) {
       return {
         ...state,
         searchFilter: action.payload,
-        filterGames: makeGamesFilter(
-          action.payload,
-          state.filtersInternal.map(filter => filter.filterFunc)
-        ),
         currentPage: 1
       };
-    case UPDATE_FILTERS: {
-      let updatedFilters = [
-        action.payload,
-        ...state.filtersInternal.filter(filter =>
-          filter.type != action.payload.type
-        ),
-      ];
-      let search = state.searchFilter;
+    case CHANGE_SORT_OPTION:
       return {
         ...state,
+        sortOption: action.payload,
+      };
+    case UPDATE_FILTERS: {
+      let filterWithoutType = state.filters.filter(filter => filter.type != action.payload.type);
+      let newFilters = [action.payload, ...filterWithoutType];
+      return {
+        ...state,
+        filters: newFilters,
         currentPage: 1,
-        filtersInternal: updatedFilters,
-        filterGames: makeGamesFilter(
-          state.searchFilter,
-          updatedFilters.map(filter => filter.filterFunc),
-        ),
       };
     }
     case REMOVE_FILTER: {
-      let updatedFilters = state.filtersInternal.filter(filter =>
-        filter.type != action.payload
-      );
-      let search = state.searchFilter;
       return {
         ...state,
+        filters: state.filters.filter(filter => filter.type != action.payload),
         currentPage: 1,
-        filtersInternal: updatedFilters,
-        filterGames: makeGamesFilter(
-          state.searchFilter,
-          updatedFilters.map(filter => filter.filterFunc),
-        ),
-      };
+      }
     }
     case UPDATE_PAGE:
       return {...state, currentPage: action.payload};
     default:
       return state;
   }
-}
+};

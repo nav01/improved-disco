@@ -1,3 +1,13 @@
+const FILTERS = Object.freeze({
+  none: 0,
+  conference: 1,
+  platform: 2,
+  day: 3,
+  release: 4,
+  exclusivesMisc: 5,
+  vr: 6,
+});
+
 const MONTHS = [
   "January","February","March",
   "April","May","June",
@@ -78,7 +88,7 @@ const isMonth = month =>
 const getQuarter = month => {
   const QUARTERS = 4;
   let monthNum = MONTHS.indexOf(month[0].toUpperCase() + month.substring(1));
-  return 'Q' + parseInt(monthNum % QUARTERS + 1);
+  return 'Q' + parseInt(Math.floor(monthNum / QUARTERS) + 1);
 };
 
 const quarterizeDate = date => {
@@ -96,7 +106,52 @@ const quarterizeDate = date => {
   }
 };
 
+const filterFuncFactory = (filter, filterValues) => {
+  switch (filter) {
+    case FILTERS.conference:
+      return game => filterValues.includes(game.conference.toLowerCase());
+    case FILTERS.platform:
+      return game => {
+        if (!game.platforms)
+          return false;
+        let platformsToLower = game.platforms.map(platform => platform.toLowerCase());
+        return filterValues.some(filterValue => platformsToLower.includes(filterValue))
+      }
+    case FILTERS.day:
+      let days = filterValues.slice(1).map(day => day.split(' ')[1]);
+      let newFilterValues = [filterValues[0].toLowerCase(), ...days];
+      return game => newFilterValues.includes(game.day);
+    case FILTERS.release:
+      return game => {
+        const TBA = 'To Be Announced';
+        if (game.releaseDate === TBA)
+          return filterValues.includes(game.releaseDate);
+        else {
+          let quarterDate = quarterizeDate(game.releaseDate).toLowerCase();
+          return filterValues.includes(quarterDate);
+        }
+      };
+    case FILTERS.exclusivesMisc:
+      return game => {
+        return filterValues.some(value => game.moreDetails.includes(value)) ||
+        (
+          game.moreDetails.includes('exclusive') &&
+          game.platforms.some(platform => filterValues.includes(platform.toLowerCase()))
+        );
+      }
+    case FILTERS.vr:
+      return game => filterValues.includes(game.vr);
+  }
+}
+
+const makeGamesFilter = filters => {
+  let filterFuncs = filters.map(filter => filterFuncFactory(filter.type, filter.values));
+  return games =>
+    games.filter(game => filterFuncs.every(f => f(game)));
+}
+
 module.exports = {
+  FILTERS,
   conferences,
   platforms,
   days,
@@ -104,4 +159,5 @@ module.exports = {
   exclusivesMisc,
   vr,
   quarterizeDate,
+  makeGamesFilter,
 };
