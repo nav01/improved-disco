@@ -1,6 +1,7 @@
 import React from 'react';
-import GridIcon from './GridIcon';
+
 import './legend.css';
+import {GridIcon} from '../icons';
 
 function Legend () {
   const conferences = [

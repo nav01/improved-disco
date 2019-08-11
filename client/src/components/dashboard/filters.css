@@ -36,9 +36,3 @@
   text-align: left;
   color: var(--custom-light-gray);
 }
-
-.drop-down {
-  margin-left: auto;
-  width: 24px;
-  height: 24px;
-}

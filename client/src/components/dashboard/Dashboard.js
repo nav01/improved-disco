@@ -7,13 +7,16 @@ import {connect} from 'react-redux';
 import {SEARCH} from '../../actions';
 
 import './dashboard.css';
-import downArrow from '../../icons/down-arrow.svg';
-import rightArrow from '../../icons/forward-arrow.svg';
-import search from '../../icons/search.svg';
-import legend from '../../icons/legend.svg';
-import sort from '../../icons/sort.svg';
-import filter from '../../icons/filter.svg';
-import reset from '../../icons/reset.svg';
+
+import {
+  ArrowDownIcon,
+  ArrowRightIcon,
+  SearchIcon,
+  LegendIcon,
+  SortIcon,
+  FilterIcon,
+  ResetIcon,
+} from '../icons';
 
 
 const mapDispatchToProps = (dispatch) => {
@@ -50,17 +53,17 @@ class Dashboard extends React.Component {
       <div className="dashboard">
         <button id="schedule" className="dash-item" onClick={() => this.toggleDashItem(this.DashItem.schedule)}>
           <p><i className="fa fa-calendar"></i> E3 Conference Schedule</p>
-          <img className="arrow-icon dash-icon" src={downArrow}/>
+          <ArrowDownIcon />
         </button>
         <div className="dash-item" id="vods">
           <div>
             <p id="missed-stream">MISSED A STREAM?</p>
             <p id="catch-up">Catch up on all the VODs now</p>
           </div>
-          <img className="arrow-icon dash-icon" src={rightArrow} />
+          <ArrowRightIcon />
         </div>
         <div className="dash-item" id="search">
-          <img id="search-icon" className="dash-icon" src={search} />
+          <SearchIcon />
           <input
             onChange={(e) => this.props.updateSearch(e.target.value)}
             id="search-announcements"
@@ -73,25 +76,25 @@ class Dashboard extends React.Component {
             onClick={() => this.toggleDashItem(this.DashItem.legend)}
             className={this.state.activeDashItem === this.DashItem.legend ? "tool tool-selected": "tool"}
           >
-            <img className="dash-icon filter-icons" src={legend} />
+            <LegendIcon />
             <span className="filter-text">Legend</span>
           </button>
           <button
             onClick={() => this.toggleDashItem(this.DashItem.sorting)}
             className={this.state.activeDashItem === this.DashItem.sorting ? "tool tool-selected": "tool"}
           >
-            <img className="dash-icon filter-icons" src={sort} />
+            <SortIcon />
             <span className="filter-text">Sorting</span>
           </button>
           <button
             onClick={() => this.toggleDashItem(this.DashItem.filters)}
             className={this.state.activeDashItem === this.DashItem.filters ? "tool tool-selected": "tool"}
           >
-            <img className="dash-icon filter-icons" src={filter} />
+            <FilterIcon />
             <span className="filter-text">Filters</span>
           </button>
           <button id="reset-filters" className="tool">
-            <img className="dash-icon filter-icons" src={reset} />
+            <ResetIcon />
             <span className="filter-text">Reset</span>
           </button>
         </div>

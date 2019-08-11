@@ -7,9 +7,6 @@ import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import reducer from './reducer';
 
-import chevronLeft from './icons/chevron-left.svg';
-import chevronRight from './icons/chevron-right.svg';
-
 import './App.css';
 
 const initialState = {

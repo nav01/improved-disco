@@ -1,9 +1,11 @@
 import React from 'react';
 
-import visibilityOff from '../icons/visibility-off.svg';
-import visibilityOn from '../icons/visibility-on.svg';
-import flipCard from '../icons/flip-card.svg';
-import movie from '../icons/movie.svg';
+import {
+  VisibilityOnIcon,
+  VisibilityOffIcon,
+  FlipCardIcon,
+  MovieIcon,
+} from './icons';
 
 import './game-card.css';
 
@@ -83,8 +85,8 @@ class GameCard extends React.Component {
             </div>
             {
               !this.state.disabled ?
-              <img onClick={this.toggleDisabled} className="card-icon visibility-off" src={visibilityOff} />
-              : <img onClick={this.toggleDisabled} className="card-icon visibility-on" src={visibilityOn} />
+              <VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon visibility-on"/>
+              : <VisibilityOnIcon onClick={this.toggleDisabled} />
             }
           </div>
           : <div className="card-back">
@@ -98,8 +100,8 @@ class GameCard extends React.Component {
                 }
               </div>
               <div className="card-back-header-right">
-                <img onClick={this.toggleDisabled} className="card-icon" src={visibilityOff} />
-                <img onClick={this.flip} className="card-icon" src={flipCard} />
+                <VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon" />
+                <FlipCardIcon onClick={this.flip} />
               </div>
             </div>
             <div className="card-back-lower">
@@ -131,7 +133,7 @@ class GameCard extends React.Component {
                       data-link={media.mediaLink}
                       key={index}
                     >
-                      <img src={movie} />
+                      <MovieIcon />
                       <br/>
                       <span>{media.mediaType}</span>
                     </button>

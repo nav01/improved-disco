@@ -1,0 +1,42 @@
+.nav-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.dash-icon {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.arrow-icon {
+  margin-left: auto;
+}
+
+.drop-down {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.nav-chevron {
+  height: 40px;
+  width: 40px;
+}
+
+.card-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.visibility-off, .visibility-on {
+  z-index: 2;
+  position: absolute;
+  align-self: flex-end;
+  left: 0;
+}
+
+#rewind {
+  width: 24px;
+  height: 24px;
+}

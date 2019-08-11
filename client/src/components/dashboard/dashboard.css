@@ -17,12 +17,6 @@
     color: 	var(--custom-light-gray);
   }
 
-  .dash-icon {
-    align-self: center;
-    width: 20px;
-    height: 20px;
-  }
-
   #missed-stream {
     color: var(--custom-red);
     font-size: 0.7em;
@@ -32,10 +26,6 @@
 
   #catch-up {
     font-size: 0.9em;
-  }
-
-  .arrow-icon {
-    margin-left: auto;
   }
 
   #search-announcements {

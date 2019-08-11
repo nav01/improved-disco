@@ -10,8 +10,9 @@ import {
   FILTERS,
 } from './filtersUtil';
 import Filter from './Filter';
-import arrowDropDown from '../../icons/arrow-drop-down.svg';
+
 import './filters.css';
+import {ChevronDownIcon} from '../icons';
 
 class Filters extends React.Component {
   constructor() {
@@ -40,7 +41,7 @@ class Filters extends React.Component {
               onClick={() => this.setActiveFilters(data.filter)}
             >
               <span className="filter-type">{data.label}</span>
-              <img className="drop-down" src={arrowDropDown}/>
+              <ChevronDownIcon />
             </button>
             {
               (this.state.activeFilters.includes(data.filter)) &&

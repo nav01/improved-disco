@@ -33,12 +33,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  #rewind {
-    display: inline;
-    width: 24px;
-    height: 14px;
-  }
-
   .logo {
     margin-left: 0%;
     margin-right: auto;
@@ -47,6 +41,11 @@
 
   .logo div span {
     color: white;
+  }
+
+  .logo div {
+    display: flex;
+    align-items: center;
   }
 
   .navItemSmall {

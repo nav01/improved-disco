@@ -7,7 +7,6 @@ import {makeGamesFilter} from './dashboard/filtersUtil';
 import {getSortFunction} from './dashboard/sortUtil';
 
 import memoize from 'memoize-one';
-import isEqual from 'lodash.isequal';
 
 import './game-cards.css';
 

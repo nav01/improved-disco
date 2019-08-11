@@ -24,11 +24,6 @@
   background: black;
 }
 
-.nav-chevron {
-  height: 40px;
-  width: 40px;
-}
-
 #nav-left, #nav-right {
   display: inline-block;
   align-items: center;

@@ -4,9 +4,10 @@ import {connect} from 'react-redux';
 import {UPDATE_PAGE} from '../actions';
 
 import './games-nav.css';
-
-import chevronLeft from '../icons/chevron-left.svg';
-import chevronRight from '../icons/chevron-right.svg';
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+} from './icons';
 
 const mapDispatchToProps = (dispatch) => {
   return ({
@@ -40,7 +41,7 @@ class GamesNav extends React.Component {
     return (
       <div id="announcements-nav">
         <a id="nav-left" href="#" onClick={this.decrementPage}>
-          <img className="nav-chevron" src={chevronLeft} />
+          <ChevronLeftIcon />
         </a>
         {
           pages.map((page) => {
@@ -57,7 +58,7 @@ class GamesNav extends React.Component {
           })
         }
         <a id="nav-right" href="#" onClick={this.incrementPage}>
-          <img className="nav-chevron" src={chevronRight} />
+          <ChevronRightIcon />
         </a>
       </div>
     );
