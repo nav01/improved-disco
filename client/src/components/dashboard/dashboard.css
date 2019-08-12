@@ -41,6 +41,11 @@
     font-size: 0.8em;
   }
 
+  .reset-text-disabled {
+    color: dimgray;
+    font-size: 0.8em;
+  }
+
   .tool {
     box-sizing: border-box;
     display: flex;

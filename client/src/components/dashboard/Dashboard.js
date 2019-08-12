@@ -4,7 +4,7 @@ import Legend from './Legend';
 import Sort from './Sort';
 import Filters from './Filters';
 import {connect} from 'react-redux';
-import {SEARCH} from '../../actions';
+import {SEARCH, RESET} from '../../actions';
 
 import './dashboard.css';
 
@@ -18,31 +18,35 @@ import {
   ResetIcon,
 } from '../icons';
 
+const mapStateToProps = state => ({
+  searchFilter: state.searchFilter,
+  resetActive: state.resetActive,
+});
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-      updateSearch: (payload) => dispatch({type: SEARCH, payload}),
-    }
-}
+const mapDispatchToProps = dispatch => ({
+    updateSearch: (payload) => dispatch({type: SEARCH, payload}),
+    reset: () => dispatch({type: RESET}),
+});
+
+const DASH_ITEM = Object.freeze({'none': -1, 'schedule': 1, 'legend': 2, 'sorting': 3, 'filters': 4});
 
 class Dashboard extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      activeDashItem: -1,
+      activeDashItem: DASH_ITEM.none,
       scheduleVisible: false,
       legendVisible: false,
       selectedFilter: 0,
     };
 
-    this.DashItem = Object.freeze({'none': -1, 'schedule': 1, 'legend': 2, 'sorting': 3, 'filters': 4});
   }
 
   toggleDashItem = (item) => {
     this.setState(prevState => {
       if (prevState.activeDashItem === item)
-        return {activeDashItem: this.DashItem.none};
+        return {activeDashItem: DASH_ITEM.none};
       else
         return {activeDashItem: item};
     })
@@ -51,7 +55,7 @@ class Dashboard extends React.Component {
   render() {
     return (
       <div className="dashboard">
-        <button id="schedule" className="dash-item" onClick={() => this.toggleDashItem(this.DashItem.schedule)}>
+        <button id="schedule" className="dash-item" onClick={() => this.toggleDashItem(DASH_ITEM.schedule)}>
           <p><i className="fa fa-calendar"></i> E3 Conference Schedule</p>
           <ArrowDownIcon />
         </button>
@@ -69,42 +73,51 @@ class Dashboard extends React.Component {
             id="search-announcements"
             type="text"
             placeholder="Search Game Title..."
-            />
+            value={this.props.searchFilter}
+          />
         </div>
         <div className="dash-item" id="tools">
           <button
-            onClick={() => this.toggleDashItem(this.DashItem.legend)}
-            className={this.state.activeDashItem === this.DashItem.legend ? "tool tool-selected": "tool"}
+            onClick={() => this.toggleDashItem(DASH_ITEM.legend)}
+            className={this.state.activeDashItem === DASH_ITEM.legend ? "tool tool-selected": "tool"}
           >
             <LegendIcon />
             <span className="filter-text">Legend</span>
           </button>
           <button
-            onClick={() => this.toggleDashItem(this.DashItem.sorting)}
-            className={this.state.activeDashItem === this.DashItem.sorting ? "tool tool-selected": "tool"}
+            onClick={() => this.toggleDashItem(DASH_ITEM.sorting)}
+            className={this.state.activeDashItem === DASH_ITEM.sorting ? "tool tool-selected": "tool"}
           >
             <SortIcon />
             <span className="filter-text">Sorting</span>
           </button>
           <button
-            onClick={() => this.toggleDashItem(this.DashItem.filters)}
-            className={this.state.activeDashItem === this.DashItem.filters ? "tool tool-selected": "tool"}
+            onClick={() => this.toggleDashItem(DASH_ITEM.filters)}
+            className={this.state.activeDashItem === DASH_ITEM.filters ? "tool tool-selected": "tool"}
           >
             <FilterIcon />
             <span className="filter-text">Filters</span>
           </button>
-          <button id="reset-filters" className="tool">
-            <ResetIcon />
-            <span className="filter-text">Reset</span>
+          <button
+            onClick={this.props.reset}
+            id="reset-filters"
+            className="tool"
+          >
+            <ResetIcon active={this.props.resetActive} />
+            <span
+              className={this.props.resetActive ? "filter-text": "reset-text-disabled"}
+            >
+              Reset
+            </span>
           </button>
         </div>
-        {(this.state.activeDashItem === this.DashItem.schedule) && <Schedule />}
-        {(this.state.activeDashItem === this.DashItem.legend) && <Legend />}
-        {(this.state.activeDashItem === this.DashItem.sorting) && <Sort />}
-        {(this.state.activeDashItem === this.DashItem.filters) && <Filters />}
+        {(this.state.activeDashItem === DASH_ITEM.schedule) && <Schedule />}
+        {(this.state.activeDashItem === DASH_ITEM.legend) && <Legend />}
+        {(this.state.activeDashItem === DASH_ITEM.sorting) && <Sort />}
+        {(this.state.activeDashItem === DASH_ITEM.filters) && <Filters />}
       </div>
     );
   }
 }
 
-export default connect(null, mapDispatchToProps)(Dashboard);
+export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);

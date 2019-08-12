@@ -3,6 +3,7 @@ const UPDATE_FILTERS = 'filters';
 const REMOVE_FILTER = 'remove filter';
 const SEARCH = 'search';
 const UPDATE_PAGE = 'update page';
+const RESET = 'reset';
 
 module.exports = {
   CHANGE_SORT_OPTION,
@@ -10,4 +11,5 @@ module.exports = {
   REMOVE_FILTER,
   SEARCH,
   UPDATE_PAGE,
+  RESET,
 }
