@@ -150,7 +150,7 @@ const makeGamesFilter = filters => {
     games.filter(game => filterFuncs.every(f => f(game)));
 }
 
-module.exports = {
+export {
   FILTERS,
   conferences,
   platforms,
