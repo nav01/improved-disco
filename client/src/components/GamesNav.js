@@ -41,7 +41,7 @@ class GamesNav extends React.Component {
     return (
       <div id="announcements-nav">
         <a id="nav-left" href="#" onClick={this.decrementPage}>
-          <ChevronLeftIcon />
+          <ChevronLeftIcon htmlClass="nav-chevron" color="#D3D3D3"/>
         </a>
         {
           pages.map((page) => {
@@ -58,7 +58,7 @@ class GamesNav extends React.Component {
           })
         }
         <a id="nav-right" href="#" onClick={this.incrementPage}>
-          <ChevronRightIcon />
+          <ChevronRightIcon htmlClass="nav-chevron" color="#D3D3D3"/>
         </a>
       </div>
     );

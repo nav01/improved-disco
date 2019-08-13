@@ -5,6 +5,7 @@ import {games} from '../data';
 import {connect} from 'react-redux';
 import {makeGamesFilter} from './dashboard/filtersUtil';
 import {getSortFunction} from './dashboard/sortUtil';
+import {SET_ACTIVE_GAME_MEDIA} from '../actions';
 
 import memoize from 'memoize-one';
 
@@ -18,6 +19,12 @@ const mapStateToProps = state => {
     sortOption: state.sortOption,
   }
 }
+
+const mapDispatchToProps = dispatch => ({
+  showMedia: games =>
+    payload =>
+      dispatch({type: SET_ACTIVE_GAME_MEDIA, payload: {games: [...games], ...payload}}),
+});
 
 class GameCards extends React.Component {
   constructor() {
@@ -51,13 +58,14 @@ class GameCards extends React.Component {
     let sortedGames = this.sort(games, this.props.sortOption);
     let searchFilteredGames = this.search(sortedGames, this.props.searchFilter);
     let filteredGames = this.filter(searchFilteredGames, this.props.filters);
+    let showMedia = this.props.showMedia(filteredGames);
 
     this.numPages = Math.ceil(filteredGames.length / this.gamesPerPage);
     var gamesIndexStart = (this.props.currentPage - 1) * this.gamesPerPage;
     var gamesIndexEnd = gamesIndexStart + this.gamesPerPage > filteredGames.length ?
       filteredGames.length :
       gamesIndexStart + this.gamesPerPage;
-
+      
     return (
       <div id="game-cards">
         {filteredGames.slice(gamesIndexStart, gamesIndexEnd).map((game, index) =>
@@ -65,6 +73,8 @@ class GameCards extends React.Component {
             game={game}
             visible={true}
             key={game.title + game.conference + game.day}
+            index={index}
+            showMedia={showMedia}
           />
         )}
         {(this.numPages > 1) &&
@@ -78,4 +88,4 @@ class GameCards extends React.Component {
   }
 }
 
-export default connect(mapStateToProps)(GameCards);
+export default connect(mapStateToProps, mapDispatchToProps)(GameCards);

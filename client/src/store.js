@@ -9,6 +9,8 @@ import {
   SEARCH,
   UPDATE_PAGE,
   RESET,
+  SET_ACTIVE_GAME_MEDIA,
+  REMOVE_ACTIVE_GAME_MEDIA,
 } from './actions';
 
 const initialState = {
@@ -17,6 +19,7 @@ const initialState = {
   filters: [],
   searchFilter: '',
   resetActive: false,
+  mediaActiveGame: false,
 }
 
 const makeGamesFilter = (searchFilter, otherFilters) => {
@@ -70,6 +73,16 @@ function reducer (state = {}, action) {
       return {...state, currentPage: action.payload};
     case RESET:
       return {...state, ...initialState};
+    case SET_ACTIVE_GAME_MEDIA:
+      return {
+        ...state,
+        mediaActiveGame: action.payload,
+      }
+    case REMOVE_ACTIVE_GAME_MEDIA:
+      return {
+        ...state,
+        mediaActiveGame: false,
+      }
     default:
       return state;
   }

@@ -1,13 +1,12 @@
 import React from 'react';
 
+import './game-card.css';
 import {
   VisibilityOnIcon,
   VisibilityOffIcon,
   FlipCardIcon,
   MovieIcon,
 } from './icons';
-
-import './game-card.css';
 
 class GameCard extends React.Component {
   constructor (props) {
@@ -132,6 +131,12 @@ class GameCard extends React.Component {
                       className="card-back-media-item "
                       data-link={media.mediaLink}
                       key={index}
+                      onClick={() => this.props.showMedia(
+                        {
+                          activeGameIndex: this.props.index,
+                          activeGameMediaIndex: index,
+                        }
+                      )}
                     >
                       <MovieIcon />
                       <br/>

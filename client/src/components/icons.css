@@ -40,3 +40,9 @@
   width: 24px;
   height: 24px;
 }
+
+.media-change-chevron {
+  display: inline;
+  height: 16px;
+  width: 16px;
+}

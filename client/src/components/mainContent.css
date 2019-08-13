@@ -1,0 +1,8 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 100%;
+}
