@@ -34,7 +34,9 @@ function Navbar (props) {
       <li className="navItemSmall">
         <Link to='/watch'><VideoCameraIcon /></Link>
       </li>
-      <li className="navItemSmall"><HelpIcon /></li>
+      <li className="navItemSmall">
+        <Link to='/about'><HelpIcon /></Link>
+      </li>
     </ul>
   );
 }

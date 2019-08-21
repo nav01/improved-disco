@@ -1,0 +1,34 @@
+#about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#about {
+  width: 86%;
+}
+
+#about-header {
+  color: var(--custom-light-gray);
+  margin-bottom: 10px;
+}
+
+.naq {
+  width: 100%;
+  background: var(--dash-background);
+  margin-bottom: 10px;
+}
+
+.naq-text {
+  padding: 5%;
+}
+
+.naq-question {
+  color: var(--custom-red);
+  margin: 0;
+}
+
+.naq-answer {
+  color: var(--custom-light-gray);
+  font-size: 0.8em;
+}
