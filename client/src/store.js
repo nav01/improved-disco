@@ -9,8 +9,8 @@ import {
   SEARCH,
   UPDATE_PAGE,
   RESET,
-  SET_ACTIVE_GAME_MEDIA,
-  REMOVE_ACTIVE_GAME_MEDIA,
+  SET_MEDIA_OVERLAY_ACTIVE,
+  SET_MEDIA_OVERLAY_DISABLED,
 } from './actions';
 
 const initialState = {
@@ -19,21 +19,13 @@ const initialState = {
   filters: [],
   searchFilter: '',
   resetActive: false,
-  mediaActiveGame: false,
+  mediaOverlayActive: false,
 }
-
-const makeGamesFilter = (searchFilter, otherFilters) => {
-  return games =>
-    games.filter(game => {
-        return game.title.toLowerCase().includes(searchFilter.toLowerCase()) &&
-          otherFilters.every(filter => filter(game));
-    });
-};
 
 const setResetActive = (searchFilter, filters, sortOption) =>
   searchFilter.length > 0 ||
     filters.length > 0 ||
-    sortOption != SORT.new;
+    sortOption !== SORT.new;
 
 function reducer (state = {}, action) {
   switch (action.type) {
@@ -51,7 +43,7 @@ function reducer (state = {}, action) {
         resetActive: setResetActive(state.searchFilter, state.filters, action.payload),
       };
     case UPDATE_FILTERS: {
-      let filterWithoutType = state.filters.filter(filter => filter.type != action.payload.type);
+      let filterWithoutType = state.filters.filter(filter => filter.type !== action.payload.type);
       let newFilters = [action.payload, ...filterWithoutType];
       return {
         ...state,
@@ -61,7 +53,7 @@ function reducer (state = {}, action) {
       };
     }
     case REMOVE_FILTER: {
-      let newFilters = state.filters.filter(filter => filter.type != action.payload);
+      let newFilters = state.filters.filter(filter => filter.type !== action.payload);
       return {
         ...state,
         filters: newFilters,
@@ -73,15 +65,15 @@ function reducer (state = {}, action) {
       return {...state, currentPage: action.payload};
     case RESET:
       return {...state, ...initialState};
-    case SET_ACTIVE_GAME_MEDIA:
+    case SET_MEDIA_OVERLAY_ACTIVE:
       return {
         ...state,
-        mediaActiveGame: action.payload,
+        mediaOverlayActive: action.payload,
       }
-    case REMOVE_ACTIVE_GAME_MEDIA:
+    case SET_MEDIA_OVERLAY_DISABLED:
       return {
         ...state,
-        mediaActiveGame: false,
+        mediaOverlayActive: false,
       }
     default:
       return state;

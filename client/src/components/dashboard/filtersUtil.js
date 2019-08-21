@@ -103,6 +103,8 @@ const quarterizeDate = date => {
         return date;
     case 3:// Month Day, Year
       return getQuarter(dateSplit[0]) + ' ' + dateSplit[2];
+    default:
+      return 'TBA';
   }
 };
 
@@ -141,6 +143,8 @@ const filterFuncFactory = (filter, filterValues) => {
       }
     case FILTERS.vr:
       return game => filterValues.includes(game.vr);
+    default:
+      return game => game;
   }
 }
 

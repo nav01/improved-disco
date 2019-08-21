@@ -36,13 +36,19 @@
   left: 0;
 }
 
-#rewind {
-  width: 24px;
-  height: 24px;
-}
-
 .media-change-chevron {
   display: inline;
   height: 16px;
   width: 16px;
+}
+
+.watch-rewind-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.link-icon {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-45deg);
 }

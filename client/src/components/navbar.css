@@ -17,12 +17,11 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 1920px) {
-  .logo {
-    margin-right: auto;
-    margin-left: 1%;
-  }
+#e3-recap {
+  color: white;
+}
 
+@media screen and (max-width: 1920px) {
   .navItemLarge {
     margin: 0 1%;
   }
@@ -33,19 +32,18 @@
 }
 
 @media screen and (max-width: 450px) {
-  .logo {
+  #logo-container {
     margin-left: 0%;
     margin-right: auto;
+  }
+
+  #logo {
+    display: flex;
     font-size: 1.4em;
   }
 
-  .logo div span {
-    color: white;
-  }
-
-  .logo div {
-    display: flex;
-    align-items: center;
+  #nav-rewind-icon {
+    padding-top: 1px;
   }
 
   .navItemSmall {

@@ -2,25 +2,25 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 import Dashboard from './dashboard/Dashboard';
-import GameCards from './GameCards';
+import GameCards from './cards/GameCards';
 import MediaOverlay from './MediaOverlay';
 
 import './mainContent.css';
 
 const mapStateToProps = state => {
   return {
-    mediaActiveGame: state.mediaActiveGame,
+    mediaOverlayActive: state.mediaOverlayActive,
   }
 }
 
 const MainContent = props => {
-  let {games, activeGameIndex, activeGameMediaIndex} = props.mediaActiveGame;
+  let {games, activeGameIndex, activeGameMediaIndex} = props.mediaOverlayActive;
   return (
     <div id="content">
       <Dashboard />
       <GameCards />
       {
-        props.mediaActiveGame &&
+        props.mediaOverlayActive &&
         <MediaOverlay
           games={games}
           gameIndex={activeGameIndex}

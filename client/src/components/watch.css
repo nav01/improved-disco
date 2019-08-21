@@ -1,0 +1,128 @@
+/*
+todo: setting container width to 90% leaves unremovable margin on right
+preventing proper centering of iframe. container is set to 100% of parent
+and children are set to 94% to fix in the meantime.
+*/
+#watch-container {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#conference-media {
+  width: 94%;
+  margin-bottom: 3%;
+}
+
+#conference-media-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#conference-media-wrapper iframe {
+  position: absolute;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#conference-media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  color: var(--custom-light-gray);
+  background: var(--dash-background);
+  height: 40px;
+  font-size: 0.9em;
+}
+
+#conference-media-title {
+  font-weight: bold;
+}
+
+#conference-stream-links {
+  background: var(--dash-background);
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+
+#streams-links-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 3%;
+}
+
+#conference-stream-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  height: 40px;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--custom-light-gray-2);
+  background: var(--custom-dark-gray);
+}
+
+#header-rewind-icon {
+  display: flex;
+  align-items: center;
+  padding-top: 1px;
+}
+
+.conference-media-link {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0;
+  font-size: 0.8em;
+  text-align: left;
+  color: var(--custom-gray-2);
+  border: 1px solid var(--custom-gray-3);
+  margin-bottom: 5px;
+}
+
+.conference-media-link-selected {
+  color: white;
+  border: 1px solid white;
+}
+
+.youtube-icon {
+  margin: 0 2%;
+}
+
+#watch-schedule-container {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  margin-bottom: 5%;
+}
+
+#watch-schedule-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--custom-light-gray);
+  background-color: var(--dash-background);
+  width: 100%;
+  height: 50px;
+}
+
+#watch-schedule-header i {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#new-tab {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}

@@ -23,20 +23,16 @@ const mapDispatchToProps = dispatch => {
 }
 
 class Filter extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   onChange = event => {
     let checkedValue = event.target.value;
 
     let newFilterValues = undefined;
     if (this.props.selectedValues.includes(checkedValue))
-      newFilterValues = this.props.selectedValues.filter(value => value != checkedValue);
+      newFilterValues = this.props.selectedValues.filter(value => value !== checkedValue);
     else
       newFilterValues = [checkedValue, ...this.props.selectedValues];
 
-    let {type, updateFilters, removeFilter, filterFuncFactory} = this.props;
+    let {type, updateFilters, removeFilter} = this.props;
 
     if (newFilterValues.length)
       updateFilters({

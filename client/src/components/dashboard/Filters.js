@@ -6,7 +6,6 @@ import {
   releaseQuarters,
   exclusivesMisc,
   vr,
-  quarterizeDate,
   FILTERS,
 } from './filtersUtil';
 import Filter from './Filter';
@@ -25,7 +24,7 @@ class Filters extends React.Component {
   setActiveFilters = filter => {
     this.setState(prevState => {
       return prevState.activeFilters.includes(filter) ?
-      {activeFilters: prevState.activeFilters.filter(activeFilter => activeFilter != filter)} :
+      {activeFilters: prevState.activeFilters.filter(activeFilter => activeFilter !== filter)} :
       {activeFilters: [...prevState.activeFilters, filter]}
     });
   }

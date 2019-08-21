@@ -5,6 +5,7 @@ import Sort from './Sort';
 import Filters from './Filters';
 import {connect} from 'react-redux';
 import {SEARCH, RESET} from '../../actions';
+import {Link} from 'react-router-dom';
 
 import './dashboard.css';
 
@@ -59,12 +60,16 @@ class Dashboard extends React.Component {
           <p><i className="fa fa-calendar"></i> E3 Conference Schedule</p>
           <ArrowDownIcon />
         </button>
-        <div className="dash-item" id="vods">
-          <div>
-            <p id="missed-stream">MISSED A STREAM?</p>
-            <p id="catch-up">Catch up on all the VODs now</p>
-          </div>
-          <ArrowRightIcon />
+        <div id="vods">
+          <Link to="/watch" style={{textDecoration: 'none'}}>
+            <div className="dash-item">
+              <span>
+                <p id="missed-stream">MISSED A STREAM?</p>
+                <p id="catch-up">Catch up on all the VODs now</p>
+              </span>
+              <ArrowRightIcon />
+            </div>
+          </Link>
         </div>
         <div className="dash-item" id="search">
           <SearchIcon />

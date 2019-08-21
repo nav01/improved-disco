@@ -1,13 +1,13 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import {UPDATE_PAGE} from '../actions';
+import {UPDATE_PAGE} from '../../actions';
 
 import './games-nav.css';
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
-} from './icons';
+} from '../icons';
 
 const mapDispatchToProps = (dispatch) => {
   return ({
@@ -16,9 +16,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class GamesNav extends React.Component {
-  constructor (props) {
-    super(props);
-  }
 
   incrementPage  = () => {
     let page = this.props.currentPage + 1;

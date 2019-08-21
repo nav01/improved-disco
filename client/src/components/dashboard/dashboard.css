@@ -26,6 +26,7 @@
 
   #catch-up {
     font-size: 0.9em;
+    color: var(--custom-light-gray);
   }
 
   #search-announcements {

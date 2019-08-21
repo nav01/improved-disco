@@ -1,4 +1,4 @@
-var conferences = [
+const conferences = [
 	{
 		company: 'The Pokémon Company',
 		date: 'Jun 5th, 2019 @ 6:00 AM PDT',
@@ -57,7 +57,78 @@ var conferences = [
 	},
 ];
 
-var games = [
+const conferenceMedia = [
+	{
+		title: 'Pokémon Direct',
+		link: 'PpjVUOJkX-s',
+	},
+	{
+		title: 'Google Stadia Connect',
+		link: 'k-BbW6zAjL0',
+	},
+	{
+		title: 'EA Play',
+		link: 'isvyP3Bu2rc',
+	},
+	{
+		title: 'Microsoft Conference',
+		link: 'zeYQ-kPF0iQ',
+	},
+	{
+		title: 'Bethesda Conference',
+		link: 'c9B5qhzKyhg',
+	},
+	{
+		title: 'Devolver Digital Direct',
+		link: 'riNcPrsFYM0',
+	},
+	{
+		title: 'Upload\'s E3 VR Showcase',
+		link: 'YHfWkFz1l1Y',
+	},
+	{
+		title: 'The PC Gaming Show',
+		link: 'hru6IvgRSp4',
+	},
+	{
+		title: 'Limited Run Games',
+		link: 'PJ8NbEdtYc0',
+	},
+	{
+		title: 'Ubisoft Conference',
+		link: 'pKbKx2JHQ8s',
+	},
+	{
+		title: 'AMD Next Horizon Gaming',
+		link: 'yxPBXNuX6Xs',
+	},
+	{
+		title: 'Kinda Funny Games Showcase',
+		link: 'Ayw3J7sxEkQ',
+	},
+	{
+		title: 'Square Enix Conference',
+		link: 'cq6GmnM98jQ',
+	},
+	{
+		title: 'Nintendo Direct',
+		link: 'Zr9eAtwcYlo',
+	},
+	{
+		title: 'Nintendo at E3 2019 Day 1',
+		link: 'hhVCdxtofWU',
+	},
+	{
+		title: 'Nintendo at E3 2019 Day 2',
+		link: 'R5y5DQEJcgM',
+	},
+	{
+		title: 'Nintendo at E3 2019 Day 3',
+		link: 'UbGYfoVxb3E',
+	},
+];
+
+const games = [
   {
     "conference": "Other",
     "day": "5",
@@ -5933,5 +6004,6 @@ var games = [
 
 module.exports = {
 	conferences,
+	conferenceMedia,
 	games,
 };

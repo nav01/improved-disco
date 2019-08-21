@@ -44,7 +44,7 @@
 #close-media {
   padding: 0;
   color: white;
-  background-color: #99272a;
+  background-color: var(--custom-red);
   width: 15%;
   height: 100%;
   font-weight: bold;
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-  background-color: #99272a;
+  background-color: var(--custom-red);
   color: white;
   font-size: 0.7em;
 }

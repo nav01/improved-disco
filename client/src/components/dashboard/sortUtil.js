@@ -51,6 +51,8 @@ const getSortFunction = sortOption => {
       return sortOldestFirst;
     case SORT.random:
       return shuffleGames;
+    default:
+      return sortNewestFirst;
   }
 }
 

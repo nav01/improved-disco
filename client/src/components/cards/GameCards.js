@@ -1,11 +1,11 @@
 import React from 'react';
 import GameCard from './GameCard';
 import GamesNav from './GamesNav';
-import {games} from '../data';
+import {games} from '../../data';
 import {connect} from 'react-redux';
-import {makeGamesFilter} from './dashboard/filtersUtil';
-import {getSortFunction} from './dashboard/sortUtil';
-import {SET_ACTIVE_GAME_MEDIA} from '../actions';
+import {makeGamesFilter} from '../dashboard/filtersUtil';
+import {getSortFunction} from '../dashboard/sortUtil';
+import {SET_MEDIA_OVERLAY_ACTIVE} from '../../actions';
 
 import memoize from 'memoize-one';
 
@@ -23,7 +23,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => ({
   showMedia: games =>
     payload =>
-      dispatch({type: SET_ACTIVE_GAME_MEDIA, payload: {games: [...games], ...payload}}),
+      dispatch({type: SET_MEDIA_OVERLAY_ACTIVE, payload: {games: [...games], ...payload}}),
 });
 
 class GameCards extends React.Component {
@@ -65,7 +65,7 @@ class GameCards extends React.Component {
     var gamesIndexEnd = gamesIndexStart + this.gamesPerPage > filteredGames.length ?
       filteredGames.length :
       gamesIndexStart + this.gamesPerPage;
-      
+
     return (
       <div id="game-cards">
         {filteredGames.slice(gamesIndexStart, gamesIndexEnd).map((game, index) =>

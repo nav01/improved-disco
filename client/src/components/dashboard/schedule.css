@@ -22,3 +22,9 @@
     width: 70%;
   }
 }
+
+#conference-schedule {
+  background-color: var(--dash-background);
+  color: var(--custom-light-gray);
+  width: 100%;
+}

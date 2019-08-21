@@ -1,14 +1,14 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {
-  REMOVE_ACTIVE_GAME_MEDIA,
+  SET_MEDIA_OVERLAY_DISABLED,
 } from '../actions';
 
 import './mediaOverlay.css';
 import {ChevronLeftIcon, ChevronRightIcon, MovieIcon} from './icons';
 
 const mapDispatchToProps = dispatch => ({
-    closeOverlay: () => dispatch({type: REMOVE_ACTIVE_GAME_MEDIA}),
+  closeOverlay: () => dispatch({type: SET_MEDIA_OVERLAY_DISABLED}),
 });
 
 class MediaOverlay extends React.Component {
@@ -41,6 +41,7 @@ class MediaOverlay extends React.Component {
         <div id="media">
           <div id="video-wrapper">
             <iframe
+              title={game.title + ' ' + game.media[this.state.mediaIndex].mediaType}
               src={game.media[this.state.mediaIndex].mediaLink}
             >
             </iframe>
@@ -73,22 +74,25 @@ class MediaOverlay extends React.Component {
             </div>
           </div>
         </div>
-        <div id="media-footer">
-          <button
-            onClick={this.previousGame} 
-            className="media-change-card"
-          >
-            <ChevronLeftIcon htmlClass="media-change-chevron" color={"#ffffff"} />
-            <span>Previous Card</span>
-          </button>
-          <button
-            onClick={this.nextGame}
-            className="media-change-card"
-          >
-            <span>Next Card</span>
-            <ChevronRightIcon htmlClass="media-change-chevron" color={"#ffffff"} />
-          </button>
-        </div>
+        {
+          (this.props.games.length > 1) &&
+          <div id="media-footer">
+            <button
+              onClick={this.previousGame}
+              className="media-change-card"
+            >
+              <ChevronLeftIcon htmlClass="media-change-chevron" color={"#ffffff"} />
+              <span>Previous Card</span>
+            </button>
+            <button
+              onClick={this.nextGame}
+              className="media-change-card"
+            >
+              <span>Next Card</span>
+              <ChevronRightIcon htmlClass="media-change-chevron" color={"#ffffff"} />
+            </button>
+          </div>
+        }
       </div>
     );
   }

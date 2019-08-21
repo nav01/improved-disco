@@ -4,8 +4,8 @@ const REMOVE_FILTER = 'remove filter';
 const SEARCH = 'search';
 const UPDATE_PAGE = 'update page';
 const RESET = 'reset';
-const SET_ACTIVE_GAME_MEDIA = 'set game active media';
-const REMOVE_ACTIVE_GAME_MEDIA = 'remove game active media';
+const SET_MEDIA_OVERLAY_ACTIVE = 'set game active media';
+const SET_MEDIA_OVERLAY_DISABLED = 'remove game active media';
 
 module.exports = {
   CHANGE_SORT_OPTION,
@@ -14,6 +14,6 @@ module.exports = {
   SEARCH,
   UPDATE_PAGE,
   RESET,
-  SET_ACTIVE_GAME_MEDIA,
-  REMOVE_ACTIVE_GAME_MEDIA,
+  SET_MEDIA_OVERLAY_ACTIVE,
+  SET_MEDIA_OVERLAY_DISABLED,
 }

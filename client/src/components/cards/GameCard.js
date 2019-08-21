@@ -6,7 +6,7 @@ import {
   VisibilityOffIcon,
   FlipCardIcon,
   MovieIcon,
-} from './icons';
+} from '../icons';
 
 class GameCard extends React.Component {
   constructor (props) {
