@@ -1,7 +1,8 @@
 #sorting {
   display: flex;
-  height: 30px;
+  height: 40px;
   border-top: 1px solid var(--custom-gray);
+  width: 100%;
 }
 
 .sort-option {

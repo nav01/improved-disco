@@ -39,40 +39,54 @@ class MediaOverlay extends React.Component {
     return (
       <div id="media-overlay">
         <div id="media">
-          <div id="video-wrapper">
-            <iframe
-              title={game.title + ' ' + game.media[this.state.mediaIndex].mediaType}
-              src={game.media[this.state.mediaIndex].mediaLink}
-            >
-            </iframe>
-          </div>
-          <div id="video-footer">
-            <span id="media-game-title">{game.title}</span>
-            <div id="video-footer-right">
-              {
-                (game.media.length > 1) && game.media.map((media, i) =>
-                  (
-                    <button
-                      className={
-                        this.state.mediaIndex === i ?
-                          "media-selection media-selection-chosen" :
-                          "media-selection"
-                      }
-                      onClick={() => this.setState({mediaIndex: i})}
-                    >
-                      <MovieIcon />
-                    </button>
-                  )
-                )
-              }
-              <button
-                id="close-media"
-                onClick={this.props.closeOverlay}
+          {
+            (this.props.games.length > 1) &&
+            <button className="media-change-button" onClick={this.previousGame}>
+              <ChevronLeftIcon htmlClass="media-change-chevron" color="#D3D3D3" />
+            </button>
+          }
+          <div id="media-wrapper">
+            <div id="video-wrapper">    
+              <iframe
+                title={game.title + ' ' + game.media[this.state.mediaIndex].mediaType}
+                src={game.media[this.state.mediaIndex].mediaLink}
               >
-                &times;
-              </button>
+              </iframe>
+            </div>
+            <div id="video-footer">
+                <span id="media-game-title">{game.title}</span>
+                <div id="video-footer-right">
+                  {
+                    (game.media.length > 1) && game.media.map((media, i) =>
+                      (
+                        <button
+                          className={
+                            this.state.mediaIndex === i ?
+                              "media-selection media-selection-chosen" :
+                              "media-selection"
+                          }
+                          onClick={() => this.setState({mediaIndex: i})}
+                        >
+                          <MovieIcon />
+                        </button>
+                      )
+                    )
+                  }
+                  <button
+                    id="close-media"
+                    onClick={this.props.closeOverlay}
+                  >
+                    &times;
+                  </button>
+                </div>
             </div>
           </div>
+          {
+            (this.props.games.length > 1) &&
+            <button className="media-change-button" onClick={this.nextGame}>
+              <ChevronRightIcon htmlClass="media-change-chevron" color="#D3D3D3" />
+            </button>
+          }
         </div>
         {
           (this.props.games.length > 1) &&
@@ -81,7 +95,7 @@ class MediaOverlay extends React.Component {
               onClick={this.previousGame}
               className="media-change-card"
             >
-              <ChevronLeftIcon htmlClass="media-change-chevron" color={"#ffffff"} />
+              <ChevronLeftIcon htmlClass="media-change-chevron-footer" color={"#ffffff"} />
               <span>Previous Card</span>
             </button>
             <button
@@ -89,7 +103,7 @@ class MediaOverlay extends React.Component {
               className="media-change-card"
             >
               <span>Next Card</span>
-              <ChevronRightIcon htmlClass="media-change-chevron" color={"#ffffff"} />
+              <ChevronRightIcon htmlClass="media-change-chevron-footer" color={"#ffffff"} />
             </button>
           </div>
         }

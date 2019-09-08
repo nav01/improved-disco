@@ -47,20 +47,21 @@ class Filter extends React.Component {
     return (
       <div id={'filter' + this.props.index} className="filter-dropdown">
         {
-          this.props.values.map((value, index) =>
-            <div className="filter-value-container">
-              <input id={value.type + value.value  + index}
+          this.props.values.map((value, index) => {
+            let id = this.props.type + '-' + value.value.split(' ').join('-')  + '-' + index;
+            return <div className="filter-value-container">
+              <input id={id}
                 className="filter-value"
                 type="checkbox"
                 value={value.value}
                 checked={this.props.selectedValues.includes(value.value)}
                 onChange={this.onChange}
               />
-              <label htmlFor={value.type + value.value + index} className="filter-value-label">
+              <label htmlFor={id} className="filter-value-label">
                 {value.label}
               </label>
             </div>
-          )
+          })
         }
       </div>
     );

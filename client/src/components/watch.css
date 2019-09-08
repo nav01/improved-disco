@@ -7,13 +7,24 @@ and children are set to 94% to fix in the meantime.
   min-height: 100%;
   min-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #watch-wrapper {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #conference-media, #conference-streams, #watch-schedule-container {
+    margin-bottom: 15px;
+  }
 }
 
 #conference-media {
-  width: 94%;
-  margin-bottom: 3%;
+  width: 100%;
 }
 
 #conference-media-wrapper {
@@ -44,12 +55,11 @@ and children are set to 94% to fix in the meantime.
   font-weight: bold;
 }
 
-#conference-stream-links {
+#conference-streams {
   background: var(--dash-background);
-  width: 94%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3%;
 }
 
 #streams-links-container {
@@ -85,7 +95,6 @@ and children are set to 94% to fix in the meantime.
   text-align: left;
   color: var(--custom-gray-2);
   border: 1px solid var(--custom-gray-3);
-  margin-bottom: 5px;
 }
 
 .conference-media-link-selected {
@@ -100,8 +109,8 @@ and children are set to 94% to fix in the meantime.
 #watch-schedule-container {
   display: flex;
   flex-direction: column;
-  width: 94%;
-  margin-bottom: 5%;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 #watch-schedule-header {
@@ -125,4 +134,51 @@ and children are set to 94% to fix in the meantime.
   display: flex;
   align-items: center;
   text-decoration: none;
+}
+
+#conference-stream-links {
+  display: grid;
+  grid-gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #conference-stream-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #conference-stream-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #conference-stream-links {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #watch-wrapper {
+    display: grid;
+    grid-template-columns: 600px 350px;
+    align-items: start;
+    grid-gap: 15px;
+  }
+
+  #conference-streams {
+    grid-column: 2;
+    grid-row: 1 / 3
+  }
+
+  #conference-stream-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #watch-wrapper {
+    grid-template-columns: 800px 300px;
+  }
 }

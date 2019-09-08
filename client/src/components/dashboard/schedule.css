@@ -1,27 +1,27 @@
-@media screen and (max-width: 450px) {
-  .schedule-header {
-    color: var(--custom-red);
-    font-size: 0.7em;
-    font-weight: bold;
-  }
-
-  .schedule-item {
-    text-align: center;
-  }
-
-  .schedule-item td {
-    font-size: 0.9em;
-    padding: 3% 1%;
-  }
-
-  .conference {
-    width: 30%;
-  }
-
-  .conference-date {
-    width: 70%;
-  }
+.schedule-header {
+  color: var(--custom-red);
+  font-size: 0.7em;
+  font-weight: bold;
+  height: 40px;
 }
+
+.schedule-item {
+  text-align: center;
+}
+
+.schedule-item td {
+  font-size: 0.9em;
+  height: 30px;
+}
+
+.conference {
+  width: 30%;
+}
+
+.conference-date {
+  width: 70%;
+}
+
 
 #conference-schedule {
   background-color: var(--dash-background);

@@ -57,12 +57,12 @@ class Dashboard extends React.Component {
     return (
       <div className="dashboard">
         <button id="schedule" className="dash-item" onClick={() => this.toggleDashItem(DASH_ITEM.schedule)}>
-          <p><i className="fa fa-calendar"></i> E3 Conference Schedule</p>
+          <span><i className="fa fa-calendar"></i> E3 Conference Schedule</span>
           <ArrowDownIcon />
         </button>
-        <div id="vods">
+        <div id="vods-container">
           <Link to="/watch" style={{textDecoration: 'none'}}>
-            <div className="dash-item">
+            <div id="vods" className="dash-item">
               <span>
                 <p id="missed-stream">MISSED A STREAM?</p>
                 <p id="catch-up">Catch up on all the VODs now</p>

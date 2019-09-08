@@ -24,17 +24,22 @@ function Navbar (props) {
           </span>
         </Link>
       </li>
-      <li className="navItemLarge">Home</li>
-      <li className="navItemLarge">Watch</li>
-      <li className="navItemLarge">About</li>
-      <li className="navItemLarge">Social</li>
-      <li className="navItemSmall">
+      <li className="nav-item-large">
+        <Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>Home</Link>
+      </li>
+      <li className="nav-item-large">
+        <Link to='/watch' style={{textDecoration: 'none', color: 'inherit'}}>Watch</Link>
+      </li>
+      <li className="nav-item-large">
+        <Link to='/about' style={{textDecoration: 'none', color: 'inherit'}}>About</Link>
+      </li>
+      <li className="nav-item-small">
         <Link to='/'><HomeIcon /></Link>
       </li>
-      <li className="navItemSmall">
+      <li className="nav-item-small">
         <Link to='/watch'><VideoCameraIcon /></Link>
       </li>
-      <li className="navItemSmall">
+      <li className="nav-item-small">
         <Link to='/about'><HelpIcon /></Link>
       </li>
     </ul>
