@@ -42,6 +42,7 @@
 #schedule {
   font-size: 1em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #schedule > svg, #vods > svg {
