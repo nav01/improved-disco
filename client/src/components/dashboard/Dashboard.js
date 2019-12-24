@@ -84,21 +84,21 @@ class Dashboard extends React.Component {
         <div className="dash-item" id="tools">
           <button
             onClick={() => this.toggleDashItem(DASH_ITEM.legend)}
-            className={this.state.activeDashItem === DASH_ITEM.legend ? "tool tool-selected": "tool"}
+            className={"tool tool-enabled" + (this.state.activeDashItem === DASH_ITEM.legend ? " tool-selected": "")}
           >
             <LegendIcon />
             <span className="filter-text">Legend</span>
           </button>
           <button
             onClick={() => this.toggleDashItem(DASH_ITEM.sorting)}
-            className={this.state.activeDashItem === DASH_ITEM.sorting ? "tool tool-selected": "tool"}
+            className={"tool tool-enabled" + (this.state.activeDashItem === DASH_ITEM.sorting ? " tool-selected": "")}
           >
             <SortIcon />
             <span className="filter-text">Sorting</span>
           </button>
           <button
             onClick={() => this.toggleDashItem(DASH_ITEM.filters)}
-            className={this.state.activeDashItem === DASH_ITEM.filters ? "tool tool-selected": "tool"}
+            className={"tool tool-enabled" + (this.state.activeDashItem === DASH_ITEM.filters ? " tool-selected": "")}
           >
             <FilterIcon />
             <span className="filter-text">Filters</span>
@@ -106,7 +106,7 @@ class Dashboard extends React.Component {
           <button
             onClick={this.props.reset}
             id="reset-filters"
-            className="tool"
+            className={"tool" + (this.props.resetActive ? " tool-enabled" : "")}
           >
             <ResetIcon active={this.props.resetActive} />
             <span
