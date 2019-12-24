@@ -73,6 +73,7 @@
   height: 100%;
   font-size: 1em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #media-footer {
@@ -122,6 +123,14 @@
 
   #media {
     width: 90%;
+  }
+
+  .media-change-chevron:hover {
+    cursor: pointer;
+  }
+
+  .media-change-chevron:hover > path {
+    fill: white;
   }
 }
 

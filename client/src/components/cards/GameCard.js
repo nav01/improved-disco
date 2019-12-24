@@ -60,14 +60,18 @@ class GameCard extends React.Component {
       return 'card-back-media-even';
   }
 
+  getConferenceOverlay = conference => {
+    return conference.toLowerCase().split(' ').join('-') + '-overlay';
+  }
+
   render() {
     let {game} = this.props;
 
     return (
-      <div ref={this.imageRef} className="game-card">
+      <div ref={this.imageRef} className={"game-card" + (!this.state.flipped && !this.state.disabled ? " card-not-disabled-front" : " card-disabled")}>
         {
           !this.state.flipped ? <div onClick={this.state.disabled ? null : this.flip} className="card-front">
-            {game.exclusive ? (
+            {game.moreDetails.includes('exclusive') ? (
               <div className="game-text">
                 <p className="game-title">{game.title}</p>
                 <p className="exclusive">&#9733; EXCLUSIVE</p>
@@ -80,13 +84,22 @@ class GameCard extends React.Component {
                 <img className="game-image" src={game.image} />
                 : <img className="game-image" data-src={game.image} src="" />
             }
-            <div className={"img-before " + (this.state.disabled ? "img-before-disabled" : "img-before-enabled")}>
+            <div className={"img-before " + (this.state.disabled ? "img-before-disabled" : this.getConferenceOverlay(game.conference))}>
             </div>
-            {
-              !this.state.disabled ?
-              <VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon visibility-on"/>
-              : <VisibilityOnIcon onClick={this.toggleDisabled} />
-            }
+            <span className="card-front-footer">
+              <span className="card-front-footer-item card-front-footer-visibility">
+                {
+                  !this.state.disabled ?
+                  <VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon visibility-on"/>
+                  : <VisibilityOnIcon onClick={this.toggleDisabled} />
+                }
+              </span>
+              {
+                <span className="card-front-footer-item card-front-footer-flip">
+                  <FlipCardIcon />
+                </span>
+              }
+            </span>
           </div>
           : <div className="card-back">
             <div className="card-back-header">
@@ -99,8 +112,8 @@ class GameCard extends React.Component {
                 }
               </div>
               <div className="card-back-header-right">
-                <VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon" />
-                <FlipCardIcon onClick={this.flip} />
+                <span className="card-back-header-right-item"><VisibilityOffIcon onClick={this.toggleDisabled} htmlClass="card-icon" /></span>
+                <span className="card-back-header-right-item"><FlipCardIcon onClick={this.flip} /></span>
               </div>
             </div>
             <div className="card-back-lower">

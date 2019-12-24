@@ -25,13 +25,6 @@
   height: 24px;
 }
 
-.visibility-off, .visibility-on {
-  z-index: 2;
-  position: absolute;
-  align-self: flex-end;
-  left: 0;
-}
-
 .media-change-chevron {
   height: 48px;
   width: 48px;
