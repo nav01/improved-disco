@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/%7Bimproved-disco%7D/static/css/main.f958c216.css",
-    "main.js": "/%7Bimproved-disco%7D/static/js/main.7bfa9bb4.js",
-    "static/media/horizon.jpg": "/%7Bimproved-disco%7D/static/media/horizon.8a6932bbc8dea9513908.jpg",
-    "index.html": "/%7Bimproved-disco%7D/index.html",
-    "main.f958c216.css.map": "/%7Bimproved-disco%7D/static/css/main.f958c216.css.map",
-    "main.7bfa9bb4.js.map": "/%7Bimproved-disco%7D/static/js/main.7bfa9bb4.js.map"
+    "main.css": "/improved-disco/static/css/main.3cd1c8eb.css",
+    "main.js": "/improved-disco/static/js/main.040f1a36.js",
+    "static/media/horizon.jpg": "/improved-disco/static/media/horizon.8a6932bbc8dea9513908.jpg",
+    "index.html": "/improved-disco/index.html",
+    "main.3cd1c8eb.css.map": "/improved-disco/static/css/main.3cd1c8eb.css.map",
+    "main.040f1a36.js.map": "/improved-disco/static/js/main.040f1a36.js.map"
   },
   "entrypoints": [
-    "static/css/main.f958c216.css",
-    "static/js/main.7bfa9bb4.js"
+    "static/css/main.3cd1c8eb.css",
+    "static/js/main.040f1a36.js"
   ]
 }
