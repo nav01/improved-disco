@@ -73,7 +73,7 @@ class GameCards extends React.Component {
             game={game}
             visible={true}
             key={game.title + game.conference + game.day}
-            index={index}
+            index={index + (this.props.currentPage - 1) * this.gamesPerPage}
             showMedia={showMedia}
           />
         )}

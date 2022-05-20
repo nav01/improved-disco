@@ -66,6 +66,7 @@ class GameCard extends React.Component {
 
   render() {
     let {game} = this.props;
+    console.log(`${game.title} - ${this.props.index}`);
 
     return (
       <div ref={this.imageRef} className={"game-card" + (!this.state.flipped && !this.state.disabled ? " card-not-disabled-front" : " card-disabled")}>
@@ -81,7 +82,7 @@ class GameCard extends React.Component {
             )}
             {
               this.state.loadImage ?
-                <img className="game-image" src={game.image} />
+                <img className="game-image" src={process.env.PUBLIC_URL + '/pictures/' + game.image + '.jpg'} />
                 : <img className="game-image" data-src={game.image} src="" />
             }
             <div className={"img-before " + (this.state.disabled ? "img-before-disabled" : this.getConferenceOverlay(game.conference))}>

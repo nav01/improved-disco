@@ -31,12 +31,21 @@
   color: white;
 }
 
-.nav-item-large {
+
+.nav-item-text {
   font-weight: bold;
   color: var(--custom-light-gray);
 }
 
-@media screen and (max-width: 1920px) {
+.nav-item-text:hover {
+  color: white;
+}
+
+.nav-item-small:hover svg path:first-of-type {
+  fill: white;
+}
+
+@media screen and (min-width: 751px) {
   .nav-item-large {
     margin: 0 1%;
   }

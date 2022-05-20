@@ -25,13 +25,13 @@ function Navbar (props) {
         </Link>
       </li>
       <li className="nav-item-large">
-        <Link to='/' style={{textDecoration: 'none', color: 'inherit'}}>Home</Link>
+        <Link to='/' className={"nav-item-text"} style={{textDecoration: 'none'}}>Home</Link>
       </li>
       <li className="nav-item-large">
-        <Link to='/watch' style={{textDecoration: 'none', color: 'inherit'}}>Watch</Link>
+        <Link to='/watch' className={"nav-item-text"} style={{textDecoration: 'none'}}>Watch</Link>
       </li>
       <li className="nav-item-large">
-        <Link to='/about' style={{textDecoration: 'none', color: 'inherit'}}>About</Link>
+        <Link to='/about' className={"nav-item-text"} style={{textDecoration: 'none'}}>About</Link>
       </li>
       <li className="nav-item-small">
         <Link to='/'><HomeIcon /></Link>

@@ -68,6 +68,7 @@ var images = [];
 
 for(let i = 0; i < cardList.children.length; i++) {
 	let game = {};
+	game.date = JSON.stringify(new Date() - i); //Simulate newest to oldest entries
 
 	let classes = cardList.children[i].getAttribute('class').split(' ');
 	game.conference = classes[2].split('-').map((word) => {
@@ -79,7 +80,7 @@ for(let i = 0; i < cardList.children.length; i++) {
 	else 
 		game.day = classes[3].split('-')[1];
 
-	game.image = 'https://e3recap2019.b-cdn.net/images/game-cards/' + cardList.children[i].querySelector('.card-background').getAttribute('data-url') + '.jpg';
+	game.image = cardList.children[i].querySelector('.card-background').getAttribute('data-url');
 	images.push(game.image);
 	game.title = cardList.children[i].querySelector('.entry-title').innerHTML;
 	let developer = cardList.children[i].querySelector('.dev-container span');
@@ -168,3 +169,5 @@ for(let i = 0; i < cardList.children.length; i++) {
 	
 	games.push(game);
 }
+games.forEach((game, index) => game.index = index);
+console.log(games);
