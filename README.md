@@ -1,6 +1,9 @@
-This is a clone of the e3recap.com website.  I wanted to make this to practice my javascript, react, and css since the website is narrow in scope.
+This is a clone of the e3recap.com website.  I wanted to make this to practice my javascript, react, and css since the website is narrow in scope. The site is mostly responsive and will scale horizontally to different screen sizes.
+
+A scraper is included in the project. This allows you to collect data from any year of the project as long as it keeps a consistent format, which seems to be the case so far. Data is serialized into JSON and then read by the application. Information such as conferences and various filter options will need to be manually updated as conferences change year to year and different studios and developers participate in the conference.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
