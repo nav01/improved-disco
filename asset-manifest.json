@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%7Bimproved-disco%7D/static/css/main.f958c216.css",
+    "main.js": "/%7Bimproved-disco%7D/static/js/main.7bfa9bb4.js",
+    "static/media/horizon.jpg": "/%7Bimproved-disco%7D/static/media/horizon.8a6932bbc8dea9513908.jpg",
+    "index.html": "/%7Bimproved-disco%7D/index.html",
+    "main.f958c216.css.map": "/%7Bimproved-disco%7D/static/css/main.f958c216.css.map",
+    "main.7bfa9bb4.js.map": "/%7Bimproved-disco%7D/static/js/main.7bfa9bb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f958c216.css",
+    "static/js/main.7bfa9bb4.js"
+  ]
+}
